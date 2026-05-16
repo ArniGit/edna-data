@@ -1,0 +1,6883 @@
+{
+  "schema_version": "1.0-30m-130d",
+  "variant": "history_30m_130d",
+  "description": "Week review - 30m x 10D + 1d x 365D - run Friday/Saturday",
+  "source": "ibkr",
+  "mode": "delayed_auto_roll",
+  "generated_time_cet": "2026-05-16 03:08:29 CET",
+  "generated_time_utc": "2026-05-16T01:08:29Z",
+  "collection_duration_s": 509,
+  "instruments_ok": 0,
+  "instruments_error": 0,
+  "bar_series": {
+    "30m": {
+      "ib_duration": "130 D",
+      "bar_size": "30 mins",
+      "target_bars_per_instrument": 5980
+    },
+    "1d": {
+      "ib_duration": "365 D",
+      "bar_size": "1 day",
+      "target_bars_per_instrument": 252
+    }
+  },
+  "sector_history": {
+    "available": false
+  },
+  "credit_history": {
+    "available": true,
+    "hyg_wtd_pct": null,
+    "jnk_wtd_pct": null,
+    "lqd_wtd_pct": null,
+    "tlt_wtd_pct": null,
+    "ief_wtd_pct": null,
+    "high_yield_avg_wtd_pct": null,
+    "treasury_avg_wtd_pct": null,
+    "hy_vs_ig_spread": null,
+    "hy_vs_treasury_spread": null,
+    "credit_risk_score": "unavailable",
+    "flight_to_quality_flag": false
+  },
+  "cross_asset": {
+    "available": false
+  },
+  "assets": {
+    "ES": {
+      "meta": {
+        "symbol": "ES",
+        "label": "E-mini S&P 500",
+        "provider_symbol": "ESM6",
+        "exchange": "CME",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:00:11 CET",
+        "age_seconds": 10,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 7419.0,
+        "current_week_open": 7403.5,
+        "prior_month_close": 7243.75,
+        "current_month_open": 7256.0
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 7403.5,
+          "close": 7418.0,
+          "high": 7540.0,
+          "low": 7363.25,
+          "vwap": 7447.037294,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 08:30:00-05:00",
+            "volume": 237022.0,
+            "close": 7432.25
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 7276.25,
+          "close": 7418.0,
+          "high": 7540.0,
+          "low": 7199.5,
+          "vwap": 7390.406619,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 08:30:00-05:00",
+            "volume": 237022.0,
+            "close": 7432.25
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 7102.5,
+          "close": 7418.0,
+          "high": 7540.0,
+          "low": 7079.25,
+          "vwap": 7281.749738,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-23 12:30:00-05:00",
+            "volume": 271666.0,
+            "close": 7123.5
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 6899.5,
+          "close": 7418.0,
+          "high": 7540.0,
+          "low": 6353.25,
+          "vwap": 6947.666235,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31 14:30:00-05:00",
+            "volume": 318983.0,
+            "close": 6569.5
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 6900.5,
+          "close": 7418.0,
+          "high": 7540.0,
+          "low": 6353.25,
+          "vwap": 6947.684773,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31 14:30:00-05:00",
+            "volume": 318983.0,
+            "close": 6569.5
+          },
+          "bar_count": 5830
+        },
+        "20d": {
+          "open": 7102.5,
+          "close": 7432.25,
+          "high": 7540.0,
+          "low": 7079.25,
+          "vwap": 7281.748224,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 1826859.0,
+            "close": 7432.25
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 6918.0,
+          "close": 7432.25,
+          "high": 7540.0,
+          "low": 6353.25,
+          "vwap": 6947.664886,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31",
+            "volume": 2217040.0,
+            "close": 6570.75
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 6900.5,
+          "close": 7432.25,
+          "high": 7540.0,
+          "low": 6353.25,
+          "vwap": 6947.683598,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31",
+            "volume": 2217040.0,
+            "close": 6570.75
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 6181.0,
+          "close": 7432.25,
+          "high": 7540.0,
+          "low": 6019.5,
+          "vwap": 6947.683233,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31",
+            "volume": 2217040.0,
+            "close": 6570.75
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 7403.5,
+          "close": 7432.25,
+          "high": 7540.0,
+          "low": 7363.25,
+          "vwap": 7447.035989,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 1826859.0,
+            "close": 7432.25
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 7276.25,
+          "close": 7419.0,
+          "high": 7427.75,
+          "low": 7199.5,
+          "vwap": 7333.332489,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 1674807.0,
+            "close": 7363.0
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 7256.0,
+          "close": 7432.25,
+          "high": 7540.0,
+          "low": 7199.5,
+          "vwap": 7381.166201,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 1826859.0,
+            "close": 7432.25
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 6562.0,
+          "close": 7243.75,
+          "high": 7253.5,
+          "low": 6503.75,
+          "vwap": 6961.73436,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 2105442.0,
+            "close": 6823.75
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_pause",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 6941.5,
+            "month": "2026-02"
+          },
+          {
+            "close": 6570.75,
+            "month": "2026-03"
+          },
+          {
+            "close": 7243.75,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 5830,
+        "1d_bars_collected": 365
+      }
+    },
+    "NQ": {
+      "meta": {
+        "symbol": "NQ",
+        "label": "Nasdaq-100 Futures",
+        "provider_symbol": "NQM6",
+        "exchange": "CME",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:00:29 CET",
+        "age_seconds": 28,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 29332.5,
+        "current_week_open": 29294.0,
+        "prior_month_close": 27596.0,
+        "current_month_open": 27631.75
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 29294.0,
+          "close": 29173.0,
+          "high": 29782.0,
+          "low": 28742.0,
+          "vwap": 29337.233317,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 08:30:00-05:00",
+            "volume": 93347.0,
+            "close": 29143.75
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 27890.0,
+          "close": 29173.0,
+          "high": 29782.0,
+          "low": 27613.0,
+          "vwap": 28925.805391,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 08:30:00-05:00",
+            "volume": 93347.0,
+            "close": 29143.75
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 26599.75,
+          "close": 29173.0,
+          "high": 29782.0,
+          "low": 26535.0,
+          "vwap": 28079.142178,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 08:30:00-05:00",
+            "volume": 93347.0,
+            "close": 29143.75
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 24970.0,
+          "close": 29173.0,
+          "high": 29782.0,
+          "low": 22961.5,
+          "vwap": 26293.252484,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 08:30:00-05:00",
+            "volume": 93347.0,
+            "close": 29143.75
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 25834.0,
+          "close": 29173.0,
+          "high": 29782.0,
+          "low": 22961.5,
+          "vwap": 26292.357599,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 08:30:00-05:00",
+            "volume": 93347.0,
+            "close": 29143.75
+          },
+          "bar_count": 5732
+        },
+        "20d": {
+          "open": 26599.75,
+          "close": 29231.75,
+          "high": 29782.0,
+          "low": 26535.0,
+          "vwap": 28079.142556,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 739183.0,
+            "close": 29231.75
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 25045.0,
+          "close": 29231.75,
+          "high": 29782.0,
+          "low": 22961.5,
+          "vwap": 26293.223908,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 739183.0,
+            "close": 29231.75
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 25834.0,
+          "close": 29231.75,
+          "high": 29782.0,
+          "low": 22961.5,
+          "vwap": 26292.357698,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 739183.0,
+            "close": 29231.75
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 22330.25,
+          "close": 29231.75,
+          "high": 29782.0,
+          "low": 21795.5,
+          "vwap": 26292.354893,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 739183.0,
+            "close": 29231.75
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 29294.0,
+          "close": 29231.75,
+          "high": 29782.0,
+          "low": 28742.0,
+          "vwap": 29337.235965,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 739183.0,
+            "close": 29231.75
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 27890.0,
+          "close": 29332.5,
+          "high": 29386.75,
+          "low": 27613.0,
+          "vwap": 28464.487535,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 648101.0,
+            "close": 28682.25
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 27631.75,
+          "close": 29231.75,
+          "high": 29782.0,
+          "low": 27536.25,
+          "vwap": 28838.009641,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 739183.0,
+            "close": 29231.75
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 23889.0,
+          "close": 27596.0,
+          "high": 27622.75,
+          "low": 23666.0,
+          "vwap": 26039.845409,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30",
+            "volume": 688492.0,
+            "close": 27596.0
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_pause",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 25222.5,
+            "month": "2026-02"
+          },
+          {
+            "close": 23915.0,
+            "month": "2026-03"
+          },
+          {
+            "close": 27596.0,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 5732,
+        "1d_bars_collected": 353
+      }
+    },
+    "RTY": {
+      "meta": {
+        "symbol": "RTY",
+        "label": "Russell 2000 Futures",
+        "provider_symbol": "RTYM6",
+        "exchange": "CME",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:01:05 CET",
+        "age_seconds": 65,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 2867.6,
+        "current_week_open": 2863.0,
+        "prior_month_close": 2807.8,
+        "current_month_open": 2813.3
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 2863.0,
+          "close": 2792.1,
+          "high": 2896.2,
+          "low": 2787.9,
+          "vwap": 2843.910048,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 14:30:00-05:00",
+            "volume": 31269.0,
+            "close": 2799.6
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 2825.9,
+          "close": 2792.1,
+          "high": 2918.4,
+          "low": 2786.8,
+          "vwap": 2847.734591,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 14:30:00-05:00",
+            "volume": 31269.0,
+            "close": 2799.6
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 2758.7,
+          "close": 2792.1,
+          "high": 2918.4,
+          "low": 2726.1,
+          "vwap": 2816.505913,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-23 12:30:00-05:00",
+            "volume": 36300.0,
+            "close": 2776.6
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 2643.1,
+          "close": 2792.1,
+          "high": 2918.4,
+          "low": 2409.4,
+          "vwap": 2665.6038,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20 14:30:00-05:00",
+            "volume": 47560.0,
+            "close": 2456.1
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 2456.5,
+          "close": 2792.1,
+          "high": 2918.4,
+          "low": 2333.0,
+          "vwap": 2665.599222,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20 14:30:00-05:00",
+            "volume": 47560.0,
+            "close": 2456.1
+          },
+          "bar_count": 4996
+        },
+        "20d": {
+          "open": 2758.7,
+          "close": 2799.6,
+          "high": 2918.4,
+          "low": 2726.1,
+          "vwap": 2816.505137,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21",
+            "volume": 232898.0,
+            "close": 2775.2
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 2643.1,
+          "close": 2799.6,
+          "high": 2918.4,
+          "low": 2409.4,
+          "vwap": 2665.603406,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 365056.0,
+            "close": 2509.6
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 2501.0,
+          "close": 2799.6,
+          "high": 2918.4,
+          "low": 2333.0,
+          "vwap": 2665.598831,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 365056.0,
+            "close": 2509.6
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 2186.6,
+          "close": 2799.6,
+          "high": 2918.4,
+          "low": 2110.3,
+          "vwap": 2665.598678,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 365056.0,
+            "close": 2509.6
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 2863.0,
+          "close": 2799.6,
+          "high": 2896.2,
+          "low": 2787.9,
+          "vwap": 2843.910607,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 226447.0,
+            "close": 2799.6
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 2825.9,
+          "close": 2867.6,
+          "high": 2918.4,
+          "low": 2786.8,
+          "vwap": 2851.258862,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 208838.0,
+            "close": 2804.6
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 2813.3,
+          "close": 2799.6,
+          "high": 2918.4,
+          "low": 2786.8,
+          "vwap": 2844.730738,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 226447.0,
+            "close": 2799.6
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 2508.8,
+          "close": 2807.8,
+          "high": 2828.7,
+          "low": 2467.8,
+          "vwap": 2698.007848,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 252371.0,
+            "close": 2635.7
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 2652.2,
+            "month": "2026-02"
+          },
+          {
+            "close": 2512.2,
+            "month": "2026-03"
+          },
+          {
+            "close": 2807.8,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4996,
+        "1d_bars_collected": 290
+      }
+    },
+    "YM": {
+      "meta": {
+        "symbol": "YM",
+        "label": "Dow Jones Futures",
+        "provider_symbol": "YMM6",
+        "exchange": "CBOT",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:01:17 CET",
+        "age_seconds": 76,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 49691.0,
+        "current_week_open": 49640.0,
+        "prior_month_close": 49835.0,
+        "current_month_open": 49901.0
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 49640.0,
+          "close": 49485.0,
+          "high": 50292.0,
+          "low": 49397.0,
+          "vwap": 49793.636497,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-14 08:30:00-05:00",
+            "volume": 19246.0,
+            "close": 50059.0
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 49705.0,
+          "close": 49485.0,
+          "high": 50292.0,
+          "low": 49016.0,
+          "vwap": 49722.322122,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-14 08:30:00-05:00",
+            "volume": 19246.0,
+            "close": 50059.0
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 49324.0,
+          "close": 49485.0,
+          "high": 50292.0,
+          "low": 48608.0,
+          "vwap": 49597.121034,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-14 08:30:00-05:00",
+            "volume": 19246.0,
+            "close": 50059.0
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 49716.0,
+          "close": 49485.0,
+          "high": 50292.0,
+          "low": 45052.0,
+          "vwap": 48062.780668,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-17 08:30:00-05:00",
+            "volume": 23025.0,
+            "close": 49516.0
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 48600.0,
+          "close": 49485.0,
+          "high": 50932.0,
+          "low": 45052.0,
+          "vwap": 48069.983518,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-17 08:30:00-05:00",
+            "volume": 23025.0,
+            "close": 49516.0
+          },
+          "bar_count": 4910
+        },
+        "20d": {
+          "open": 49324.0,
+          "close": 49617.0,
+          "high": 50292.0,
+          "low": 48608.0,
+          "vwap": 49597.128724,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21",
+            "volume": 111220.0,
+            "close": 49339.0
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 49871.0,
+          "close": 49617.0,
+          "high": 50292.0,
+          "low": 45052.0,
+          "vwap": 48062.836078,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 192575.0,
+            "close": 46522.0
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 48159.0,
+          "close": 49617.0,
+          "high": 50932.0,
+          "low": 45052.0,
+          "vwap": 48069.982697,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 192575.0,
+            "close": 46522.0
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 43630.0,
+          "close": 49617.0,
+          "high": 50932.0,
+          "low": 43630.0,
+          "vwap": 48069.981531,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 192575.0,
+            "close": 46522.0
+          },
+          "bar_count": 229
+        },
+        "current_week": {
+          "open": 49640.0,
+          "close": 49617.0,
+          "high": 50292.0,
+          "low": 49397.0,
+          "vwap": 49793.660186,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 98647.0,
+            "close": 49617.0
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 49705.0,
+          "close": 49691.0,
+          "high": 50238.0,
+          "low": 49016.0,
+          "vwap": 49654.129421,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 109206.0,
+            "close": 50034.0
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 49901.0,
+          "close": 49617.0,
+          "high": 50292.0,
+          "low": 49016.0,
+          "vwap": 49735.615609,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 109206.0,
+            "close": 50034.0
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 46492.0,
+          "close": 49835.0,
+          "high": 50043.0,
+          "low": 46076.0,
+          "vwap": 48487.504493,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-17",
+            "volume": 124288.0,
+            "close": 49641.0
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 49318.0,
+            "month": "2026-02"
+          },
+          {
+            "close": 46582.0,
+            "month": "2026-03"
+          },
+          {
+            "close": 49835.0,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4910,
+        "1d_bars_collected": 229
+      }
+    },
+    "CL": {
+      "meta": {
+        "symbol": "CL",
+        "label": "Crude Oil Futures",
+        "provider_symbol": "CLM6",
+        "exchange": "NYMEX",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:01:53 CET",
+        "age_seconds": 112,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 95.42,
+        "current_week_open": 98.19,
+        "prior_month_close": 105.07,
+        "current_month_open": 105.14
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 98.19,
+          "close": 105.66,
+          "high": 106.0,
+          "low": 96.13,
+          "vwap": 100.59869,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 14:00:00-04:00",
+            "volume": 13980.0,
+            "close": 102.3
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 99.73,
+          "close": 105.66,
+          "high": 107.46,
+          "low": 88.66,
+          "vwap": 98.746793,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06 08:00:00-04:00",
+            "volume": 22315.0,
+            "close": 94.14
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 88.15,
+          "close": 105.66,
+          "high": 110.93,
+          "low": 85.45,
+          "vwap": 97.408807,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-23 13:30:00-04:00",
+            "volume": 33355.0,
+            "close": 96.19
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 62.31,
+          "close": 105.66,
+          "high": 110.93,
+          "low": 61.43,
+          "vwap": 92.492658,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-17 09:00:00-04:00",
+            "volume": 35110.0,
+            "close": 82.1
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 59.51,
+          "close": 105.66,
+          "high": 110.93,
+          "low": 55.12,
+          "vwap": 90.043487,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-17 09:00:00-04:00",
+            "volume": 35110.0,
+            "close": 82.1
+          },
+          "bar_count": 6091
+        },
+        "20d": {
+          "open": 88.15,
+          "close": 105.42,
+          "high": 110.93,
+          "low": 85.45,
+          "vwap": 97.408843,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 311900.0,
+            "close": 95.08
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 64.19,
+          "close": 105.42,
+          "high": 110.93,
+          "low": 61.43,
+          "vwap": 92.459487,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 311900.0,
+            "close": 95.08
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 59.51,
+          "close": 105.42,
+          "high": 110.93,
+          "low": 55.12,
+          "vwap": 90.043484,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 311900.0,
+            "close": 95.08
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 61.06,
+          "close": 105.42,
+          "high": 110.93,
+          "low": 55.12,
+          "vwap": 88.437305,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 311900.0,
+            "close": 95.08
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 98.19,
+          "close": 105.42,
+          "high": 106.0,
+          "low": 96.13,
+          "vwap": 100.598764,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-11",
+            "volume": 165094.0,
+            "close": 98.07
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 99.73,
+          "close": 95.42,
+          "high": 107.46,
+          "low": 88.66,
+          "vwap": 97.860539,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 311900.0,
+            "close": 95.08
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 105.14,
+          "close": 105.42,
+          "high": 107.46,
+          "low": 88.66,
+          "vwap": 99.124049,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 311900.0,
+            "close": 95.08
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 93.4,
+          "close": 105.07,
+          "high": 110.93,
+          "low": 78.97,
+          "vwap": 93.474236,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-17",
+            "volume": 305320.0,
+            "close": 82.59
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_up",
+        "weekly_regime": "trend_up",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "moderate",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 66.56,
+            "month": "2026-02"
+          },
+          {
+            "close": 93.16,
+            "month": "2026-03"
+          },
+          {
+            "close": 105.07,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 6091,
+        "1d_bars_collected": 365
+      }
+    },
+    "GC": {
+      "meta": {
+        "symbol": "GC",
+        "label": "Gold Futures",
+        "provider_symbol": "GCK6",
+        "exchange": "COMEX",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:02:11 CET",
+        "age_seconds": 130,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 4720.4,
+        "current_week_open": 4729.5,
+        "prior_month_close": 4614.7,
+        "current_month_open": 4636.7
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 4663.8,
+          "close": 4524.3,
+          "high": 4765.2,
+          "low": 4524.3,
+          "vwap": 4707.706953,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08 14:00:00-04:00",
+            "volume": 50.0,
+            "close": 4724.8
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 4686.5,
+          "close": 4524.3,
+          "high": 4765.2,
+          "low": 4512.7,
+          "vwap": 4594.061058,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-28 09:00:00-04:00",
+            "volume": 154.0,
+            "close": 4574.5
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 4767.5,
+          "close": 4524.3,
+          "high": 4900.0,
+          "low": 4512.7,
+          "vwap": 4754.904042,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21 14:00:00-04:00",
+            "volume": 183.0,
+            "close": 4698.0
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 4900.9,
+          "close": 4524.3,
+          "high": 5452.0,
+          "low": 4124.4,
+          "vwap": 4773.53708,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-19 09:30:00-04:00",
+            "volume": 315.0,
+            "close": 4639.3
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 4088.2,
+          "close": 4524.3,
+          "high": 5645.6,
+          "low": 4078.8,
+          "vwap": 4777.584689,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-19 09:30:00-04:00",
+            "volume": 315.0,
+            "close": 4639.3
+          },
+          "bar_count": 5480
+        },
+        "20d": {
+          "open": 4813.8,
+          "close": 4555.8,
+          "high": 4836.0,
+          "low": 4512.7,
+          "vwap": 4709.089634,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-20",
+            "volume": 1171.0,
+            "close": 4811.9
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 5109.1,
+          "close": 4555.8,
+          "high": 5452.0,
+          "low": 4124.4,
+          "vwap": 4771.458665,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 2615.0,
+            "close": 4423.6
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 4088.2,
+          "close": 4555.8,
+          "high": 5645.6,
+          "low": 4078.8,
+          "vwap": 4777.584832,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 2615.0,
+            "close": 4423.6
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 3369.8,
+          "close": 4555.8,
+          "high": 5645.6,
+          "low": 3329.2,
+          "vwap": 4768.721393,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 2615.0,
+            "close": 4423.6
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 4729.5,
+          "close": 4555.8,
+          "high": 4765.2,
+          "low": 4524.3,
+          "vwap": 4687.946176,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 15.0,
+            "close": 4677.6
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 4581.2,
+          "close": 4720.4,
+          "high": 4736.2,
+          "low": 4512.7,
+          "vwap": 4680.511544,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 56.0,
+            "close": 4681.9
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 4636.7,
+          "close": 4555.8,
+          "high": 4765.2,
+          "low": 4512.7,
+          "vwap": 4655.476968,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-01",
+            "volume": 107.0,
+            "close": 4629.9
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 4686.4,
+          "close": 4614.7,
+          "high": 4900.0,
+          "low": 4515.7,
+          "vwap": 4737.820934,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-02",
+            "volume": 2255.0,
+            "close": 4662.9
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_down",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 5267.2,
+            "month": "2026-02"
+          },
+          {
+            "close": 4662.7,
+            "month": "2026-03"
+          },
+          {
+            "close": 4614.7,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 5480,
+        "1d_bars_collected": 319
+      }
+    },
+    "ZN": {
+      "meta": {
+        "symbol": "ZN",
+        "label": "10Y Treasury Futures",
+        "provider_symbol": "ZNM6",
+        "exchange": "CBOT",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:02:29 CET",
+        "age_seconds": 148,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 110.75,
+        "current_week_open": 110.71875,
+        "prior_month_close": 110.59375,
+        "current_month_open": 110.703125
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 110.71875,
+          "close": 109.1875,
+          "high": 110.71875,
+          "low": 109.109375,
+          "vwap": 109.931043,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-13 07:30:00-05:00",
+            "volume": 204687.0,
+            "close": 109.96875
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 110.75,
+          "close": 109.1875,
+          "high": 111.109375,
+          "low": 109.109375,
+          "vwap": 110.256326,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04 11:00:00-05:00",
+            "volume": 216166.0,
+            "close": 110.09375
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 111.546875,
+          "close": 109.1875,
+          "high": 111.703125,
+          "low": 109.109375,
+          "vwap": 110.614729,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 14:30:00-05:00",
+            "volume": 301284.0,
+            "close": 110.578125
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 112.703125,
+          "close": 109.1875,
+          "high": 114.1875,
+          "low": 109.109375,
+          "vwap": 111.378178,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 06:00:00-05:00",
+            "volume": 551834.0,
+            "close": 110.765625
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 112.5,
+          "close": 109.1875,
+          "high": 114.1875,
+          "low": 109.109375,
+          "vwap": 111.379044,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 06:00:00-05:00",
+            "volume": 551834.0,
+            "close": 110.765625
+          },
+          "bar_count": 5449
+        },
+        "20d": {
+          "open": 111.546875,
+          "close": 109.171875,
+          "high": 111.703125,
+          "low": 109.109375,
+          "vwap": 110.614725,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 2551970.0,
+            "close": 109.171875
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 112.71875,
+          "close": 109.171875,
+          "high": 114.1875,
+          "low": 109.109375,
+          "vwap": 111.378255,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 4079066.0,
+            "close": 110.921875
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 112.5,
+          "close": 109.171875,
+          "high": 114.1875,
+          "low": 109.109375,
+          "vwap": 111.37899,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 4079066.0,
+            "close": 110.921875
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 112.46875,
+          "close": 109.171875,
+          "high": 114.1875,
+          "low": 109.109375,
+          "vwap": 111.378992,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 4079066.0,
+            "close": 110.921875
+          },
+          "bar_count": 165
+        },
+        "current_week": {
+          "open": 110.71875,
+          "close": 109.171875,
+          "high": 110.71875,
+          "low": 109.109375,
+          "vwap": 109.931111,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 2551970.0,
+            "close": 109.171875
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 110.75,
+          "close": 110.75,
+          "high": 111.109375,
+          "low": 110.015625,
+          "vwap": 110.588332,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 1904376.0,
+            "close": 110.515625
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 110.703125,
+          "close": 109.171875,
+          "high": 111.109375,
+          "low": 109.109375,
+          "vwap": 110.292335,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 2551970.0,
+            "close": 109.171875
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 111.015625,
+          "close": 110.59375,
+          "high": 111.859375,
+          "low": 110.234375,
+          "vwap": 111.099814,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30",
+            "volume": 2445730.0,
+            "close": 110.59375
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_down",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 113.8125,
+            "month": "2026-02"
+          },
+          {
+            "close": 111.046875,
+            "month": "2026-03"
+          },
+          {
+            "close": 110.59375,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 5449,
+        "1d_bars_collected": 165
+      }
+    },
+    "ZT": {
+      "meta": {
+        "symbol": "ZT",
+        "label": "2Y Treasury Futures",
+        "provider_symbol": "ZTM6",
+        "exchange": "CBOT",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:03:05 CET",
+        "age_seconds": 184,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 103.546875,
+        "current_week_open": 103.53125,
+        "prior_month_close": 103.5625,
+        "current_month_open": 103.585938
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 103.53125,
+          "close": 103.214844,
+          "high": 103.53125,
+          "low": 103.191406,
+          "vwap": 103.354009,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 07:30:00-05:00",
+            "volume": 115581.0,
+            "close": 103.40625
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 103.597656,
+          "close": 103.214844,
+          "high": 103.679688,
+          "low": 103.191406,
+          "vwap": 103.440354,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04 11:00:00-05:00",
+            "volume": 125387.0,
+            "close": 103.386719
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 103.8125,
+          "close": 103.214844,
+          "high": 103.890625,
+          "low": 103.191406,
+          "vwap": 103.554161,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-24 09:00:00-05:00",
+            "volume": 133995.0,
+            "close": 103.734375
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 104.472656,
+          "close": 103.214844,
+          "high": 104.75,
+          "low": 103.191406,
+          "vwap": 103.820046,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 06:00:00-05:00",
+            "volume": 302334.0,
+            "close": 103.59375
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 104.429688,
+          "close": 103.214844,
+          "high": 104.75,
+          "low": 103.191406,
+          "vwap": 103.82061,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 06:00:00-05:00",
+            "volume": 302334.0,
+            "close": 103.59375
+          },
+          "bar_count": 4425
+        },
+        "20d": {
+          "open": 103.8125,
+          "close": 103.203125,
+          "high": 103.890625,
+          "low": 103.191406,
+          "vwap": 103.554143,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-29",
+            "volume": 1156683.0,
+            "close": 103.476562
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 104.484375,
+          "close": 103.203125,
+          "high": 104.75,
+          "low": 103.191406,
+          "vwap": 103.820072,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-19",
+            "volume": 2484160.0,
+            "close": 103.6875
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 104.335938,
+          "close": 103.203125,
+          "high": 104.75,
+          "low": 103.191406,
+          "vwap": 103.820588,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-19",
+            "volume": 2484160.0,
+            "close": 103.6875
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 104.546875,
+          "close": 103.203125,
+          "high": 104.75,
+          "low": 103.191406,
+          "vwap": 103.820588,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-19",
+            "volume": 2484160.0,
+            "close": 103.6875
+          },
+          "bar_count": 158
+        },
+        "current_week": {
+          "open": 103.53125,
+          "close": 103.203125,
+          "high": 103.53125,
+          "low": 103.191406,
+          "vwap": 103.354033,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 981872.0,
+            "close": 103.203125
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 103.597656,
+          "close": 103.546875,
+          "high": 103.679688,
+          "low": 103.355469,
+          "vwap": 103.527366,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 902209.0,
+            "close": 103.417969
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 103.585938,
+          "close": 103.203125,
+          "high": 103.679688,
+          "low": 103.191406,
+          "vwap": 103.451078,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 981872.0,
+            "close": 103.203125
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 103.726562,
+          "close": 103.5625,
+          "high": 103.949219,
+          "low": 103.4375,
+          "vwap": 103.715097,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 1204290.0,
+            "close": 103.734375
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_down",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 104.636719,
+            "month": "2026-02"
+          },
+          {
+            "close": 103.722656,
+            "month": "2026-03"
+          },
+          {
+            "close": 103.5625,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4425,
+        "1d_bars_collected": 158
+      }
+    },
+    "DX": {
+      "meta": {
+        "symbol": "DX",
+        "label": "US Dollar Index Futures",
+        "provider_symbol": "DXM6",
+        "exchange": "NYBOT",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:03:17 CET",
+        "age_seconds": 196,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 97.785,
+        "current_week_open": 97.85,
+        "prior_month_close": 97.92,
+        "current_month_open": 98.02
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 97.81,
+          "close": 99.195,
+          "high": 99.245,
+          "low": 97.69,
+          "vwap": 98.410672,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-14 09:30:00-04:00",
+            "volume": 4004.0,
+            "close": 98.54
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 98.045,
+          "close": 99.195,
+          "high": 99.245,
+          "low": 97.47,
+          "vwap": 98.19816,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-14 09:30:00-04:00",
+            "volume": 4004.0,
+            "close": 98.54
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 98.02,
+          "close": 99.195,
+          "high": 99.245,
+          "low": 97.425,
+          "vwap": 98.231637,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 06:30:00-04:00",
+            "volume": 5447.0,
+            "close": 98.205
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 97.505,
+          "close": 99.195,
+          "high": 100.5,
+          "low": 96.14,
+          "vwap": 98.837662,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 07:00:00-04:00",
+            "volume": 10741.0,
+            "close": 99.35
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 99.0,
+          "close": 99.195,
+          "high": 100.5,
+          "low": 95.17,
+          "vwap": 98.825751,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 07:00:00-04:00",
+            "volume": 10741.0,
+            "close": 99.35
+          },
+          "bar_count": 4402
+        },
+        "20d": {
+          "open": 98.23,
+          "close": 99.205,
+          "high": 99.245,
+          "low": 97.47,
+          "vwap": 98.270935,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30",
+            "volume": 37920.0,
+            "close": 97.92
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 96.57,
+          "close": 99.205,
+          "high": 100.5,
+          "low": 96.55,
+          "vwap": 98.842484,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 45910.0,
+            "close": 98.725
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 98.37,
+          "close": 99.205,
+          "high": 100.5,
+          "low": 95.17,
+          "vwap": 98.825692,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 45910.0,
+            "close": 98.725
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 97.345,
+          "close": 99.205,
+          "high": 100.5,
+          "low": 95.17,
+          "vwap": 98.825688,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 45910.0,
+            "close": 98.725
+          },
+          "bar_count": 236
+        },
+        "current_week": {
+          "open": 97.85,
+          "close": 99.205,
+          "high": 99.245,
+          "low": 97.72,
+          "vwap": 98.451193,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 27688.0,
+            "close": 98.18
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 98.0,
+          "close": 97.785,
+          "high": 98.445,
+          "low": 97.47,
+          "vwap": 98.014735,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 29960.0,
+            "close": 98.265
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 98.02,
+          "close": 99.205,
+          "high": 99.245,
+          "low": 97.47,
+          "vwap": 98.197181,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 29960.0,
+            "close": 98.265
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 99.57,
+          "close": 97.92,
+          "high": 100.2,
+          "low": 97.425,
+          "vwap": 98.644265,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 40946.0,
+            "close": 98.925
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_up",
+        "weekly_regime": "trend_up",
+        "monthly_regime": "trend_pause",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 97.255,
+            "month": "2026-02"
+          },
+          {
+            "close": 99.76,
+            "month": "2026-03"
+          },
+          {
+            "close": 97.92,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4402,
+        "1d_bars_collected": 236
+      }
+    },
+    "VIX": {
+      "meta": {
+        "symbol": "VIX",
+        "label": "VIX Futures",
+        "provider_symbol": "VXK6",
+        "exchange": "CFE",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:04:06 CET",
+        "age_seconds": 245,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 19.25,
+        "current_week_open": 19.3,
+        "prior_month_close": 19.5,
+        "current_month_open": 19.4
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 19.3,
+          "close": 19.25,
+          "high": 20.0,
+          "low": 18.25,
+          "vwap": 19.176241,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 14:30:00-05:00",
+            "volume": 15061.0,
+            "close": 19.05
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 19.45,
+          "close": 19.25,
+          "high": 20.65,
+          "low": 18.25,
+          "vwap": 19.304083,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 14:30:00-05:00",
+            "volume": 15061.0,
+            "close": 19.05
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 21.15,
+          "close": 19.25,
+          "high": 21.75,
+          "low": 18.25,
+          "vwap": 19.930267,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21 14:30:00-05:00",
+            "volume": 27858.0,
+            "close": 21.0
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 21.25,
+          "close": 19.25,
+          "high": 26.95,
+          "low": 18.25,
+          "vwap": 21.518365,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21 14:30:00-05:00",
+            "volume": 27858.0,
+            "close": 21.0
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 22.45,
+          "close": 19.25,
+          "high": 26.95,
+          "low": 18.25,
+          "vwap": 21.491185,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21 14:30:00-05:00",
+            "volume": 27858.0,
+            "close": 21.0
+          },
+          "bar_count": 5971
+        },
+        "20d": {
+          "open": 21.15,
+          "close": 19.1,
+          "high": 21.75,
+          "low": 18.25,
+          "vwap": 19.930521,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-23",
+            "volume": 106480.0,
+            "close": 20.65
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 20.75,
+          "close": 19.1,
+          "high": 26.95,
+          "low": 18.25,
+          "vwap": 21.517743,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 110255.0,
+            "close": 21.9
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 22.45,
+          "close": 19.1,
+          "high": 26.95,
+          "low": 18.25,
+          "vwap": 21.49146,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 110255.0,
+            "close": 21.9
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 21.1,
+          "close": 19.1,
+          "high": 26.95,
+          "low": 18.25,
+          "vwap": 21.49239,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 110255.0,
+            "close": 21.9
+          },
+          "bar_count": 183
+        },
+        "current_week": {
+          "open": 19.3,
+          "close": 19.1,
+          "high": 20.0,
+          "low": 18.25,
+          "vwap": 19.176365,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 66713.0,
+            "close": 19.0
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 19.45,
+          "close": 19.25,
+          "high": 20.65,
+          "low": 18.7,
+          "vwap": 19.404355,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 83049.0,
+            "close": 19.95
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 19.4,
+          "close": 19.1,
+          "high": 20.65,
+          "low": 18.25,
+          "vwap": 19.319379,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 83049.0,
+            "close": 19.95
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 24.35,
+          "close": 19.5,
+          "high": 25.45,
+          "low": 19.4,
+          "vwap": 21.332955,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 110255.0,
+            "close": 21.9
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "recovering",
+        "weekly_regime": "trend_up",
+        "monthly_regime": "trend_down",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 21.4,
+            "month": "2026-02"
+          },
+          {
+            "close": 24.4,
+            "month": "2026-03"
+          },
+          {
+            "close": 19.5,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 5971,
+        "1d_bars_collected": 183
+      }
+    },
+    "DAX": {
+      "meta": {
+        "symbol": "DAX",
+        "label": "DAX Futures",
+        "provider_symbol": "FDXM 20260619 M",
+        "exchange": "EUREX",
+        "asset_class": "future",
+        "currency": "EUR",
+        "collected_at": "2026-05-16 03:04:15 CET",
+        "age_seconds": 254,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 24358.0,
+        "current_week_open": 24385.0,
+        "prior_month_close": 24387.0,
+        "current_month_open": 24491.0
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 24549.0,
+          "close": 23949.0,
+          "high": 24574.0,
+          "low": 23908.0,
+          "vwap": 24268.001201,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 09:00:00+02:00",
+            "volume": 3392.0,
+            "close": 24207.0
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 24001.0,
+          "close": 23949.0,
+          "high": 25250.0,
+          "low": 23728.0,
+          "vwap": 24408.077558,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04 12:00:00+02:00",
+            "volume": 4614.0,
+            "close": 24295.0
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 24160.0,
+          "close": 23949.0,
+          "high": 25250.0,
+          "low": 23728.0,
+          "vwap": 24382.95724,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-24 13:00:00+02:00",
+            "volume": 4931.0,
+            "close": 24449.0
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 25615.0,
+          "close": 23949.0,
+          "high": 25690.0,
+          "low": 22057.0,
+          "vwap": 23886.886289,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-24 13:00:00+02:00",
+            "volume": 4931.0,
+            "close": 24449.0
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 23712.0,
+          "close": 23949.0,
+          "high": 25827.0,
+          "low": 22057.0,
+          "vwap": 23887.149436,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-24 13:00:00+02:00",
+            "volume": 4931.0,
+            "close": 24449.0
+          },
+          "bar_count": 3324
+        },
+        "20d": {
+          "open": 24275.0,
+          "close": 23949.0,
+          "high": 25250.0,
+          "low": 23728.0,
+          "vwap": 24391.601143,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 41014.0,
+            "close": 25051.0
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 25300.0,
+          "close": 23949.0,
+          "high": 25600.0,
+          "low": 22057.0,
+          "vwap": 23886.374114,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 41014.0,
+            "close": 25051.0
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 24517.0,
+          "close": 23949.0,
+          "high": 25827.0,
+          "low": 22057.0,
+          "vwap": 23887.14124,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 41014.0,
+            "close": 25051.0
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 24585.0,
+          "close": 23949.0,
+          "high": 25827.0,
+          "low": 22057.0,
+          "vwap": 23887.144825,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 41014.0,
+            "close": 25051.0
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 24385.0,
+          "close": 23949.0,
+          "high": 24544.0,
+          "low": 23908.0,
+          "vwap": 24240.427649,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 29063.0,
+            "close": 24019.0
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 24491.0,
+          "close": 24358.0,
+          "high": 25250.0,
+          "low": 23938.0,
+          "vwap": 24607.814424,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 41014.0,
+            "close": 25051.0
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 24491.0,
+          "close": 23949.0,
+          "high": 25250.0,
+          "low": 23908.0,
+          "vwap": 24447.687821,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 41014.0,
+            "close": 25051.0
+          },
+          "bar_count": 10
+        },
+        "prior_month": {
+          "open": 23252.0,
+          "close": 24387.0,
+          "high": 24967.0,
+          "low": 22849.0,
+          "vwap": 24113.118091,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30",
+            "volume": 36085.0,
+            "close": 24387.0
+          },
+          "bar_count": 20
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 25578.0,
+            "month": "2026-02"
+          },
+          {
+            "close": 22837.0,
+            "month": "2026-03"
+          },
+          {
+            "close": 24387.0,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3324,
+        "1d_bars_collected": 365
+      }
+    },
+    "ESTX50": {
+      "meta": {
+        "symbol": "ESTX50",
+        "label": "Euro Stoxx 50 Futures",
+        "provider_symbol": "FESX 20260619 M",
+        "exchange": "EUREX",
+        "asset_class": "future",
+        "currency": "EUR",
+        "collected_at": "2026-05-16 03:04:27 CET",
+        "age_seconds": 266,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 5887.0,
+        "current_week_open": 5890.0,
+        "prior_month_close": 5840.0,
+        "current_month_open": 5872.0
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 5911.0,
+          "close": 5799.0,
+          "high": 5936.0,
+          "low": 5792.0,
+          "vwap": 5860.499159,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 17:30:00+02:00",
+            "volume": 100509.0,
+            "close": 5802.0
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 5754.0,
+          "close": 5799.0,
+          "high": 6044.0,
+          "low": 5684.0,
+          "vwap": 5866.560838,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04 17:00:00+02:00",
+            "volume": 119872.0,
+            "close": 5731.0
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 5905.0,
+          "close": 5799.0,
+          "high": 6044.0,
+          "low": 5684.0,
+          "vwap": 5870.848388,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-17 14:30:00+02:00",
+            "volume": 129648.0,
+            "close": 5984.0
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 5885.0,
+          "close": 5799.0,
+          "high": 6143.0,
+          "low": 5306.0,
+          "vwap": 5736.086082,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 12:00:00+01:00",
+            "volume": 233858.0,
+            "close": 5548.0
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 5680.0,
+          "close": 5799.0,
+          "high": 6143.0,
+          "low": 5306.0,
+          "vwap": 5736.090253,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 12:00:00+01:00",
+            "volume": 233858.0,
+            "close": 5548.0
+          },
+          "bar_count": 3590
+        },
+        "20d": {
+          "open": 5863.0,
+          "close": 5799.0,
+          "high": 6044.0,
+          "low": 5684.0,
+          "vwap": 5867.879901,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 1040230.0,
+            "close": 6013.0
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 5998.0,
+          "close": 5799.0,
+          "high": 6143.0,
+          "low": 5306.0,
+          "vwap": 5736.068483,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 1537892.0,
+            "close": 5500.0
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 5645.0,
+          "close": 5799.0,
+          "high": 6143.0,
+          "low": 5306.0,
+          "vwap": 5736.076154,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 1537892.0,
+            "close": 5500.0
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 5412.0,
+          "close": 5799.0,
+          "high": 6143.0,
+          "low": 5152.0,
+          "vwap": 5736.07613,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 1537892.0,
+            "close": 5500.0
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 5890.0,
+          "close": 5799.0,
+          "high": 5936.0,
+          "low": 5792.0,
+          "vwap": 5852.144162,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 585805.0,
+            "close": 5799.0
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 5872.0,
+          "close": 5887.0,
+          "high": 6044.0,
+          "low": 5684.0,
+          "vwap": 5892.599461,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 1040230.0,
+            "close": 6013.0
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 5872.0,
+          "close": 5799.0,
+          "high": 6044.0,
+          "low": 5684.0,
+          "vwap": 5876.948966,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 1040230.0,
+            "close": 6013.0
+          },
+          "bar_count": 10
+        },
+        "prior_month": {
+          "open": 5600.0,
+          "close": 5840.0,
+          "high": 6022.0,
+          "low": 5525.0,
+          "vwap": 5813.788515,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 1316924.0,
+            "close": 5838.0
+          },
+          "bar_count": 20
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 6092.0,
+            "month": "2026-02"
+          },
+          {
+            "close": 5495.0,
+            "month": "2026-03"
+          },
+          {
+            "close": 5840.0,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3590,
+        "1d_bars_collected": 365
+      }
+    },
+    "NKD": {
+      "meta": {
+        "symbol": "NKD",
+        "label": "Nikkei 225 Futures",
+        "provider_symbol": "NKDM6",
+        "exchange": "CME",
+        "asset_class": "future",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:04:30 CET",
+        "age_seconds": 270,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 63695.0,
+        "current_week_open": 63695.0,
+        "prior_month_close": 59850.0,
+        "current_month_open": 59845.0
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 63695.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 61020.0,
+          "vwap": 62589.823767,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 09:00:00-05:00",
+            "volume": 613.0,
+            "close": 62335.0
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 59660.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 59150.0,
+          "vwap": 62010.638834,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04 10:00:00-05:00",
+            "volume": 848.0,
+            "close": 59595.0
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 59370.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 58370.0,
+          "vwap": 60653.350654,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-23 12:30:00-05:00",
+            "volume": 1502.0,
+            "close": 58900.0
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 55535.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 50410.0,
+          "vwap": 56807.820276,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 06:00:00-05:00",
+            "volume": 1609.0,
+            "close": 53245.0
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 52975.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 50410.0,
+          "vwap": 56806.735677,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23 06:00:00-05:00",
+            "volume": 1609.0,
+            "close": 53245.0
+          },
+          "bar_count": 3145
+        },
+        "20d": {
+          "open": 59370.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 58370.0,
+          "vwap": 60653.339517,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-23",
+            "volume": 9169.0,
+            "close": 59000.0
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 57100.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 50410.0,
+          "vwap": 56807.768888,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 11564.0,
+            "close": 53030.0
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 51385.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 48655.0,
+          "vwap": 56806.720761,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 11564.0,
+            "close": 53030.0
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 38075.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 36955.0,
+          "vwap": 56806.720761,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 11564.0,
+            "close": 53030.0
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 63695.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 61020.0,
+          "vwap": 62589.891955,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 6773.0,
+            "close": 62520.0
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 59660.0,
+          "close": 63695.0,
+          "high": 63850.0,
+          "low": 59150.0,
+          "vwap": 61477.914509,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 6841.0,
+            "close": 59505.0
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 59845.0,
+          "close": 61840.0,
+          "high": 63880.0,
+          "low": 59120.0,
+          "vwap": 61850.911373,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 6841.0,
+            "close": 59505.0
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 53100.0,
+          "close": 59850.0,
+          "high": 61000.0,
+          "low": 52230.0,
+          "vwap": 57419.55307,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 9596.0,
+            "close": 57085.0
+          },
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 58660.0,
+            "month": "2026-02"
+          },
+          {
+            "close": 53085.0,
+            "month": "2026-03"
+          },
+          {
+            "close": 59850.0,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3145,
+        "1d_bars_collected": 365
+      }
+    },
+    "EURUSD": {
+      "meta": {
+        "symbol": "EURUSD",
+        "label": "Euro / US Dollar",
+        "provider_symbol": "EURUSD",
+        "exchange": "IDEALPRO",
+        "asset_class": "fx",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:04:39 CET",
+        "age_seconds": 278,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 1.17858,
+        "current_week_open": 1.175355,
+        "prior_month_close": 1.173145,
+        "current_month_open": 1.17322
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 1.17629,
+          "close": 1.16262,
+          "high": 1.17879,
+          "low": 1.1617,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 1.172895,
+          "close": 1.16262,
+          "high": 1.179685,
+          "low": 1.1617,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 1.17859,
+          "close": 1.16262,
+          "high": 1.18026,
+          "low": 1.1617,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 1.183465,
+          "close": 1.16262,
+          "high": 1.184925,
+          "low": 1.141105,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 1.159115,
+          "close": 1.16262,
+          "high": 1.208295,
+          "low": 1.141105,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 6226
+        },
+        "20d": {
+          "open": 1.17403,
+          "close": 1.16262,
+          "high": 1.18026,
+          "low": 1.1617,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 1.187185,
+          "close": 1.16262,
+          "high": 1.18728,
+          "low": 1.141105,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 1.159115,
+          "close": 1.16262,
+          "high": 1.208295,
+          "low": 1.141105,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 1.13832,
+          "close": 1.16262,
+          "high": 1.208295,
+          "low": 1.121045,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 1.175355,
+          "close": 1.16262,
+          "high": 1.17879,
+          "low": 1.1617,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 1.174825,
+          "close": 1.17858,
+          "high": 1.179685,
+          "low": 1.167655,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 1.17322,
+          "close": 1.16262,
+          "high": 1.179685,
+          "low": 1.1617,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 1.155525,
+          "close": 1.173145,
+          "high": 1.184925,
+          "low": 1.150645,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 1.181165,
+            "month": "2026-02"
+          },
+          {
+            "close": 1.15532,
+            "month": "2026-03"
+          },
+          {
+            "close": 1.173145,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 6226,
+        "1d_bars_collected": 365
+      }
+    },
+    "USDJPY": {
+      "meta": {
+        "symbol": "USDJPY",
+        "label": "US Dollar / Japanese Yen",
+        "provider_symbol": "USDJPY",
+        "exchange": "IDEALPRO",
+        "asset_class": "fx",
+        "currency": "JPY",
+        "collected_at": "2026-05-16 03:04:57 CET",
+        "age_seconds": 296,
+        "status": "NO_DATA"
+      },
+      "anchor_levels": {
+        "prior_week_close": 156.694,
+        "current_week_open": 156.6045,
+        "prior_month_close": 156.5805,
+        "current_month_open": 156.5645
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 157.0945,
+          "close": 158.7285,
+          "high": 158.845,
+          "low": 156.7325,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 156.9275,
+          "close": 158.7285,
+          "high": 158.845,
+          "low": 155.0305,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 158.654,
+          "close": 158.7285,
+          "high": 160.7255,
+          "low": 155.0305,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 153.71,
+          "close": 158.7285,
+          "high": 160.7255,
+          "low": 153.551,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 154.7945,
+          "close": 158.7285,
+          "high": 160.7255,
+          "low": 152.0935,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 6226
+        },
+        "20d": {
+          "open": 158.79,
+          "close": 158.7285,
+          "high": 160.7255,
+          "low": 155.0305,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 152.65,
+          "close": 158.7285,
+          "high": 160.7255,
+          "low": 152.634,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 154.7945,
+          "close": 158.7285,
+          "high": 160.7255,
+          "low": 152.0935,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 142.8365,
+          "close": 158.7285,
+          "high": 160.7255,
+          "low": 142.111,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 156.6045,
+          "close": 158.7285,
+          "high": 158.845,
+          "low": 156.54,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 156.7875,
+          "close": 156.694,
+          "high": 157.9385,
+          "low": 155.0305,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 156.5645,
+          "close": 158.7285,
+          "high": 158.845,
+          "low": 155.0305,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 158.82,
+          "close": 156.5805,
+          "high": 160.7255,
+          "low": 155.5575,
+          "vwap": null,
+          "peak_volume_bar": null,
+          "bar_count": 22
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_up",
+        "weekly_regime": "trend_up",
+        "monthly_regime": "trend_pause",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 156.0605,
+            "month": "2026-02"
+          },
+          {
+            "close": 158.7205,
+            "month": "2026-03"
+          },
+          {
+            "close": 156.5805,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 6226,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLK": {
+      "meta": {
+        "symbol": "XLK",
+        "label": "SPDR Technology ETF",
+        "provider_symbol": "XLK",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:04:59 CET",
+        "age_seconds": 299,
+        "status": "NO_DATA",
+        "sector": "Technology",
+        "classification": "offensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 175.82,
+        "current_week_open": 175.52,
+        "prior_month_close": 159.56,
+        "current_month_open": 159.44
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 169.7,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 168.4,
+          "vwap": 175.483754,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08 15:30:00-04:00",
+            "volume": 1876737.0,
+            "close": 175.56
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 160.04,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 156.16,
+          "vwap": 168.642357,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 15:30:00-04:00",
+            "volume": 1982465.0,
+            "close": 159.42
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 135.68,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 134.11,
+          "vwap": 158.376197,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21 15:30:00-04:00",
+            "volume": 2693553.0,
+            "close": 154.69
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 144.91,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 126.68,
+          "vwap": 143.678707,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03 09:30:00-05:00",
+            "volume": 6467945.0,
+            "close": 135.97
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 145.04,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 126.68,
+          "vwap": 143.372775,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-20 12:00:00-05:00",
+            "volume": 7042176.0,
+            "close": 138.22
+          },
+          "bar_count": 4145
+        },
+        "20d": {
+          "open": 153.0,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 152.73,
+          "vwap": 164.73192,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21",
+            "volume": 11184832.0,
+            "close": 155.62
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 143.42,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 126.68,
+          "vwap": 143.8408,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 30873521.0,
+            "close": 137.36
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 145.04,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 126.68,
+          "vwap": 143.372757,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-20",
+            "volume": 44102082.0,
+            "close": 136.2
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 116.54,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 112.0,
+          "vwap": 139.176399,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-20",
+            "volume": 44102082.0,
+            "close": 136.2
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 175.52,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 171.19,
+          "vwap": 176.596331,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 10057579.0,
+            "close": 175.8
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 163.03,
+          "close": 175.82,
+          "high": 175.95,
+          "low": 160.47,
+          "vwap": 168.228299,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 7208101.0,
+            "close": 161.85
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 159.44,
+          "close": 175.8,
+          "high": 180.22,
+          "low": 159.44,
+          "vwap": 171.850897,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 10057579.0,
+            "close": 175.8
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 134.4,
+          "close": 159.56,
+          "high": 161.33,
+          "low": 131.22,
+          "vwap": 148.54653,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 14324742.0,
+            "close": 134.99
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_pause",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 138.43,
+            "month": "2026-02"
+          },
+          {
+            "close": 133.56,
+            "month": "2026-03"
+          },
+          {
+            "close": 159.56,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4145,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLF": {
+      "meta": {
+        "symbol": "XLF",
+        "label": "SPDR Financials ETF",
+        "provider_symbol": "XLF",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:05:02 CET",
+        "age_seconds": 302,
+        "status": "NO_DATA",
+        "sector": "Financials",
+        "classification": "offensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 51.24,
+        "current_week_open": 51.18,
+        "prior_month_close": 52.17,
+        "current_month_open": 52.09
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 51.76,
+          "close": 50.98,
+          "high": 52.08,
+          "low": 50.81,
+          "vwap": 51.315142,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 15:30:00-04:00",
+            "volume": 9576944.0,
+            "close": 51.57
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 51.73,
+          "close": 50.98,
+          "high": 52.61,
+          "low": 50.81,
+          "vwap": 51.606938,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06 15:30:00-04:00",
+            "volume": 10950090.0,
+            "close": 51.82
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 49.53,
+          "close": 50.98,
+          "high": 53.19,
+          "low": 49.45,
+          "vwap": 51.647099,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-13 15:30:00-04:00",
+            "volume": 11713067.0,
+            "close": 51.64
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 54.98,
+          "close": 50.98,
+          "high": 56.62,
+          "low": 47.67,
+          "vwap": 51.773923,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-23 15:30:00-05:00",
+            "volume": 16980789.0,
+            "close": 50.74
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 52.49,
+          "close": 50.98,
+          "high": 56.62,
+          "low": 47.67,
+          "vwap": 52.162224,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-17 15:30:00-05:00",
+            "volume": 20187796.0,
+            "close": 51.46
+          },
+          "bar_count": 4142
+        },
+        "20d": {
+          "open": 52.1,
+          "close": 50.98,
+          "high": 53.19,
+          "low": 50.81,
+          "vwap": 51.732608,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 40945239.0,
+            "close": 51.54
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 52.9,
+          "close": 50.98,
+          "high": 53.19,
+          "low": 47.67,
+          "vwap": 50.726413,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 81564510.0,
+            "close": 51.16
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 52.49,
+          "close": 50.98,
+          "high": 56.62,
+          "low": 47.67,
+          "vwap": 52.162181,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 81564510.0,
+            "close": 51.16
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 50.79,
+          "close": 50.98,
+          "high": 56.62,
+          "low": 47.67,
+          "vwap": 52.261794,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 81564510.0,
+            "close": 51.16
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 51.18,
+          "close": 50.98,
+          "high": 51.7,
+          "low": 50.81,
+          "vwap": 51.248177,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 40945239.0,
+            "close": 51.54
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 51.99,
+          "close": 51.24,
+          "high": 52.24,
+          "low": 51.13,
+          "vwap": 51.66197,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 36631888.0,
+            "close": 51.78
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 52.09,
+          "close": 50.98,
+          "high": 52.61,
+          "low": 50.81,
+          "vwap": 51.525968,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 40945239.0,
+            "close": 51.54
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 49.4,
+          "close": 52.17,
+          "high": 53.19,
+          "low": 48.6,
+          "vwap": 51.328161,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 55355041.0,
+            "close": 49.5
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 51.35,
+            "month": "2026-02"
+          },
+          {
+            "close": 49.4,
+            "month": "2026-03"
+          },
+          {
+            "close": 52.17,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4142,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLV": {
+      "meta": {
+        "symbol": "XLV",
+        "label": "SPDR Health Care ETF",
+        "provider_symbol": "XLV",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:05:05 CET",
+        "age_seconds": 305,
+        "status": "NO_DATA",
+        "sector": "Health Care",
+        "classification": "defensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 143.74,
+        "current_week_open": 143.56,
+        "prior_month_close": 146.24,
+        "current_month_open": 146.15
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 145.2,
+          "close": 144.81,
+          "high": 147.4,
+          "low": 142.67,
+          "vwap": 145.211299,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-14 12:00:00-04:00",
+            "volume": 1632529.0,
+            "close": 146.78
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 143.93,
+          "close": 144.81,
+          "high": 147.4,
+          "low": 141.97,
+          "vwap": 144.912359,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04 15:30:00-04:00",
+            "volume": 2147453.0,
+            "close": 144.77
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 147.4,
+          "close": 144.81,
+          "high": 150.22,
+          "low": 141.97,
+          "vwap": 145.912056,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-16 15:30:00-04:00",
+            "volume": 2183190.0,
+            "close": 146.61
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 154.87,
+          "close": 144.81,
+          "high": 160.59,
+          "low": 141.97,
+          "vwap": 152.06383,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15 15:30:00-05:00",
+            "volume": 3555259.0,
+            "close": 157.0
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 145.82,
+          "close": 144.81,
+          "high": 160.59,
+          "low": 141.97,
+          "vwap": 152.441267,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15 15:30:00-05:00",
+            "volume": 3555259.0,
+            "close": 157.0
+          },
+          "bar_count": 3935
+        },
+        "20d": {
+          "open": 148.35,
+          "close": 144.81,
+          "high": 148.8,
+          "low": 141.97,
+          "vwap": 145.144977,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30",
+            "volume": 10174294.0,
+            "close": 146.24
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 156.54,
+          "close": 144.81,
+          "high": 160.29,
+          "low": 141.97,
+          "vwap": 149.999584,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-24",
+            "volume": 20288266.0,
+            "close": 145.25
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 145.82,
+          "close": 144.81,
+          "high": 160.59,
+          "low": 141.97,
+          "vwap": 152.441303,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-21",
+            "volume": 21281936.0,
+            "close": 155.87
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 128.05,
+          "close": 144.81,
+          "high": 160.59,
+          "low": 127.35,
+          "vwap": 144.307241,
+          "peak_volume_bar": {
+            "time_utc": "2025-07-31",
+            "volume": 22976899.0,
+            "close": 130.39
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 143.56,
+          "close": 144.81,
+          "high": 147.4,
+          "low": 142.67,
+          "vwap": 145.61806,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-13",
+            "volume": 8699825.0,
+            "close": 146.77
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 145.0,
+          "close": 143.74,
+          "high": 146.15,
+          "low": 143.17,
+          "vwap": 144.736319,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 8957458.0,
+            "close": 144.77
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 146.15,
+          "close": 144.81,
+          "high": 147.4,
+          "low": 142.67,
+          "vwap": 145.22659,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 8957458.0,
+            "close": 144.77
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 146.88,
+          "close": 146.24,
+          "high": 150.22,
+          "low": 141.97,
+          "vwap": 146.547422,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 12358086.0,
+            "close": 147.71
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_pause",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_down",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 160.16,
+            "month": "2026-02"
+          },
+          {
+            "close": 146.79,
+            "month": "2026-03"
+          },
+          {
+            "close": 146.24,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3935,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLY": {
+      "meta": {
+        "symbol": "XLY",
+        "label": "SPDR Consumer Discretionary ETF",
+        "provider_symbol": "XLY",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:05:11 CET",
+        "age_seconds": 311,
+        "status": "NO_DATA",
+        "sector": "Consumer Discretionary",
+        "classification": "offensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 120.19,
+        "current_week_open": 119.58,
+        "prior_month_close": 118.33,
+        "current_month_open": 117.94
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 119.36,
+          "close": 116.0,
+          "high": 121.13,
+          "low": 116.0,
+          "vwap": 118.896152,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06 15:30:00-04:00",
+            "volume": 2898724.0,
+            "close": 119.89
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 118.06,
+          "close": 116.0,
+          "high": 121.13,
+          "low": 115.0,
+          "vwap": 118.383172,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04 15:30:00-04:00",
+            "volume": 2976020.0,
+            "close": 117.74
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 108.11,
+          "close": 116.0,
+          "high": 121.85,
+          "low": 106.45,
+          "vwap": 116.783053,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08 15:30:00-04:00",
+            "volume": 3160083.0,
+            "close": 110.84
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 121.25,
+          "close": 116.0,
+          "high": 125.01,
+          "low": 105.19,
+          "vwap": 116.674553,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31 15:30:00-04:00",
+            "volume": 5308471.0,
+            "close": 108.95
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 118.45,
+          "close": 116.0,
+          "high": 125.01,
+          "low": 105.19,
+          "vwap": 116.643644,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31 15:30:00-04:00",
+            "volume": 5308471.0,
+            "close": 108.95
+          },
+          "bar_count": 3697
+        },
+        "20d": {
+          "open": 119.12,
+          "close": 116.0,
+          "high": 121.15,
+          "low": 115.0,
+          "vwap": 118.49831,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-01",
+            "volume": 11431090.0,
+            "close": 118.44
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 118.02,
+          "close": 116.0,
+          "high": 121.85,
+          "low": 105.19,
+          "vwap": 114.35917,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-31",
+            "volume": 17008230.0,
+            "close": 109.4
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 118.45,
+          "close": 116.0,
+          "high": 125.01,
+          "low": 105.19,
+          "vwap": 116.64368,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-18",
+            "volume": 17926182.0,
+            "close": 112.26
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 107.23,
+          "close": 116.0,
+          "high": 125.01,
+          "low": 103.86,
+          "vwap": 115.277033,
+          "peak_volume_bar": {
+            "time_utc": "2025-09-05",
+            "volume": 24337492.0,
+            "close": 117.56
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 119.58,
+          "close": 116.0,
+          "high": 119.86,
+          "low": 116.0,
+          "vwap": 118.072409,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 8926295.0,
+            "close": 116.0
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 118.71,
+          "close": 120.19,
+          "high": 121.13,
+          "low": 117.19,
+          "vwap": 119.251897,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 8996019.0,
+            "close": 117.78
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 117.94,
+          "close": 116.0,
+          "high": 121.13,
+          "low": 116.0,
+          "vwap": 118.759366,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-01",
+            "volume": 11431090.0,
+            "close": 118.44
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 109.5,
+          "close": 118.33,
+          "high": 121.85,
+          "low": 106.45,
+          "vwap": 114.684538,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 12248641.0,
+            "close": 109.86
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 116.85,
+            "month": "2026-02"
+          },
+          {
+            "close": 109.4,
+            "month": "2026-03"
+          },
+          {
+            "close": 118.33,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3697,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLP": {
+      "meta": {
+        "symbol": "XLP",
+        "label": "SPDR Consumer Staples ETF",
+        "provider_symbol": "XLP",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:05:23 CET",
+        "age_seconds": 323,
+        "status": "NO_DATA",
+        "sector": "Consumer Staples",
+        "classification": "defensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 84.39,
+        "current_week_open": 84.31,
+        "prior_month_close": 84.3,
+        "current_month_open": 84.46
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 84.07,
+          "close": 84.52,
+          "high": 85.59,
+          "low": 82.82,
+          "vwap": 84.295451,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 15:30:00-04:00",
+            "volume": 3091336.0,
+            "close": 84.44
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 83.2,
+          "close": 84.52,
+          "high": 85.59,
+          "low": 82.2,
+          "vwap": 83.938119,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 15:30:00-04:00",
+            "volume": 3191172.0,
+            "close": 84.28
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 82.33,
+          "close": 84.52,
+          "high": 85.59,
+          "low": 80.45,
+          "vwap": 83.0702,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 15:30:00-04:00",
+            "volume": 3191172.0,
+            "close": 84.28
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 77.78,
+          "close": 84.52,
+          "high": 90.18,
+          "low": 76.51,
+          "vwap": 83.987674,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-16 15:30:00-05:00",
+            "volume": 6138155.0,
+            "close": 82.14
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 75.59,
+          "close": 84.52,
+          "high": 90.18,
+          "low": 75.58,
+          "vwap": 82.722505,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-16 15:30:00-05:00",
+            "volume": 6138155.0,
+            "close": 82.14
+          },
+          "bar_count": 3868
+        },
+        "20d": {
+          "open": 82.32,
+          "close": 84.52,
+          "high": 85.59,
+          "low": 81.73,
+          "vwap": 83.656711,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 14630606.0,
+            "close": 84.53
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 88.41,
+          "close": 84.52,
+          "high": 90.18,
+          "low": 80.45,
+          "vwap": 84.856094,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 34054548.0,
+            "close": 87.72
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 75.59,
+          "close": 84.52,
+          "high": 90.18,
+          "low": 75.58,
+          "vwap": 82.722481,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-05",
+            "volume": 34388489.0,
+            "close": 87.3
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 79.63,
+          "close": 84.52,
+          "high": 90.18,
+          "low": 75.16,
+          "vwap": 81.683271,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-05",
+            "volume": 34388489.0,
+            "close": 87.3
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 84.31,
+          "close": 84.52,
+          "high": 85.59,
+          "low": 82.82,
+          "vwap": 84.328769,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 14630606.0,
+            "close": 84.53
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 84.0,
+          "close": 84.39,
+          "high": 84.8,
+          "low": 83.13,
+          "vwap": 84.001486,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-04",
+            "volume": 11073150.0,
+            "close": 83.72
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 84.46,
+          "close": 84.52,
+          "high": 85.59,
+          "low": 82.82,
+          "vwap": 84.188425,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 14630606.0,
+            "close": 84.53
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 82.1,
+          "close": 84.3,
+          "high": 84.48,
+          "low": 80.45,
+          "vwap": 82.248113,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 23653536.0,
+            "close": 80.92
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_pause",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 90.05,
+            "month": "2026-02"
+          },
+          {
+            "close": 81.82,
+            "month": "2026-03"
+          },
+          {
+            "close": 84.3,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3868,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLE": {
+      "meta": {
+        "symbol": "XLE",
+        "label": "SPDR Energy ETF",
+        "provider_symbol": "XLE",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:06:05 CET",
+        "age_seconds": 365,
+        "status": "NO_DATA",
+        "sector": "Energy",
+        "classification": "offensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 55.63,
+        "current_week_open": 56.35,
+        "prior_month_close": 59.76,
+        "current_month_open": 59.85
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 56.96,
+          "close": 59.44,
+          "high": 59.5,
+          "low": 55.13,
+          "vwap": 57.042778,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07 09:30:00-04:00",
+            "volume": 8024727.0,
+            "close": 55.54
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 56.69,
+          "close": 59.44,
+          "high": 60.15,
+          "low": 55.13,
+          "vwap": 57.785717,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06 09:30:00-04:00",
+            "volume": 9325629.0,
+            "close": 57.18
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 59.86,
+          "close": 59.44,
+          "high": 60.77,
+          "low": 53.41,
+          "vwap": 57.073169,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08 09:30:00-04:00",
+            "volume": 22479623.0,
+            "close": 57.27
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 44.64,
+          "close": 59.44,
+          "high": 63.59,
+          "low": 44.49,
+          "vwap": 54.893061,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-02 09:30:00-05:00",
+            "volume": 26576038.0,
+            "close": 56.9
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 44.38,
+          "close": 59.44,
+          "high": 63.59,
+          "low": 43.77,
+          "vwap": 53.217941,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-02 09:30:00-05:00",
+            "volume": 26576038.0,
+            "close": 56.9
+          },
+          "bar_count": 4131
+        },
+        "20d": {
+          "open": 55.83,
+          "close": 59.44,
+          "high": 60.15,
+          "low": 54.8,
+          "vwap": 57.353843,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 51254002.0,
+            "close": 57.09
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 55.15,
+          "close": 59.44,
+          "high": 63.59,
+          "low": 53.18,
+          "vwap": 57.359319,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 132272323.0,
+            "close": 56.42
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 44.38,
+          "close": 59.44,
+          "high": 63.59,
+          "low": 43.77,
+          "vwap": 53.217907,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 132272323.0,
+            "close": 56.42
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 42.1,
+          "close": 59.44,
+          "high": 63.59,
+          "low": 40.25,
+          "vwap": 49.515318,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 132272323.0,
+            "close": 56.42
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 56.35,
+          "close": 59.44,
+          "high": 59.5,
+          "low": 56.15,
+          "vwap": 57.753533,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 33000434.0,
+            "close": 57.54
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 58.64,
+          "close": 55.63,
+          "high": 59.76,
+          "low": 55.13,
+          "vwap": 57.216175,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 51254002.0,
+            "close": 57.09
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 59.85,
+          "close": 59.44,
+          "high": 60.15,
+          "low": 55.13,
+          "vwap": 57.578643,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 51254002.0,
+            "close": 57.09
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 59.8,
+          "close": 59.76,
+          "high": 61.32,
+          "low": 53.41,
+          "vwap": 57.289931,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 86911049.0,
+            "close": 58.71
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_up",
+        "weekly_regime": "trend_up",
+        "monthly_regime": "trend_pause",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 56.15,
+            "month": "2026-02"
+          },
+          {
+            "close": 60.84,
+            "month": "2026-03"
+          },
+          {
+            "close": 59.76,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4131,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLI": {
+      "meta": {
+        "symbol": "XLI",
+        "label": "SPDR Industrials ETF",
+        "provider_symbol": "XLI",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:06:08 CET",
+        "age_seconds": 367,
+        "status": "NO_DATA",
+        "sector": "Industrials",
+        "classification": "offensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 173.41,
+        "current_week_open": 172.99,
+        "prior_month_close": 175.0,
+        "current_month_open": 174.59
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 176.14,
+          "close": 171.5,
+          "high": 178.0,
+          "low": 170.64,
+          "vwap": 174.028464,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07 15:30:00-04:00",
+            "volume": 1791134.0,
+            "close": 174.02
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 172.54,
+          "close": 171.5,
+          "high": 178.0,
+          "low": 168.25,
+          "vwap": 173.148462,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07 15:30:00-04:00",
+            "volume": 1791134.0,
+            "close": 174.02
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 164.7,
+          "close": 171.5,
+          "high": 178.0,
+          "low": 161.14,
+          "vwap": 171.505597,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01 14:30:00-04:00",
+            "volume": 2046886.0,
+            "close": 164.56
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 157.0,
+          "close": 171.5,
+          "high": 180.02,
+          "low": 153.36,
+          "vwap": 167.961081,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-06 09:30:00-05:00",
+            "volume": 3176607.0,
+            "close": 168.5
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 153.17,
+          "close": 171.5,
+          "high": 180.02,
+          "low": 147.13,
+          "vwap": 164.566765,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-06 09:30:00-05:00",
+            "volume": 3176607.0,
+            "close": 168.5
+          },
+          "bar_count": 3674
+        },
+        "20d": {
+          "open": 172.9,
+          "close": 171.5,
+          "high": 178.0,
+          "low": 168.25,
+          "vwap": 173.06328,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-23",
+            "volume": 10200766.0,
+            "close": 174.53
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 175.75,
+          "close": 171.5,
+          "high": 180.02,
+          "low": 156.08,
+          "vwap": 169.983993,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-06",
+            "volume": 16081543.0,
+            "close": 168.82
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 153.17,
+          "close": 171.5,
+          "high": 180.02,
+          "low": 147.13,
+          "vwap": 164.566764,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-20",
+            "volume": 20983461.0,
+            "close": 148.27
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 140.2,
+          "close": 171.5,
+          "high": 180.02,
+          "low": 138.83,
+          "vwap": 156.987972,
+          "peak_volume_bar": {
+            "time_utc": "2025-11-20",
+            "volume": 20983461.0,
+            "close": 148.27
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 172.99,
+          "close": 171.5,
+          "high": 175.55,
+          "low": 170.64,
+          "vwap": 173.34439,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 5536126.0,
+            "close": 171.5
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 172.31,
+          "close": 173.41,
+          "high": 178.0,
+          "low": 170.66,
+          "vwap": 174.116035,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 7994524.0,
+            "close": 174.59
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 174.59,
+          "close": 171.5,
+          "high": 178.0,
+          "low": 170.64,
+          "vwap": 173.762583,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 7994524.0,
+            "close": 174.59
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 161.73,
+          "close": 175.0,
+          "high": 175.13,
+          "low": 161.14,
+          "vwap": 170.198268,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 12374085.0,
+            "close": 164.5
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 176.64,
+            "month": "2026-02"
+          },
+          {
+            "close": 162.11,
+            "month": "2026-03"
+          },
+          {
+            "close": 175.0,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3674,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLB": {
+      "meta": {
+        "symbol": "XLB",
+        "label": "SPDR Materials ETF",
+        "provider_symbol": "XLB",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:06:17 CET",
+        "age_seconds": 377,
+        "status": "NO_DATA",
+        "sector": "Materials",
+        "classification": "offensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 51.54,
+        "current_week_open": 51.59,
+        "prior_month_close": 51.68,
+        "current_month_open": 51.47
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 52.25,
+          "close": 50.31,
+          "high": 52.88,
+          "low": 50.17,
+          "vwap": 51.788551,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07 15:30:00-04:00",
+            "volume": 3279014.0,
+            "close": 51.42
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 51.75,
+          "close": 50.31,
+          "high": 52.88,
+          "low": 50.17,
+          "vwap": 51.594136,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 15:30:00-04:00",
+            "volume": 3291413.0,
+            "close": 51.44
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 49.78,
+          "close": 50.31,
+          "high": 52.88,
+          "low": 49.68,
+          "vwap": 51.518274,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 15:30:00-04:00",
+            "volume": 3291413.0,
+            "close": 51.44
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 45.25,
+          "close": 50.31,
+          "high": 54.28,
+          "low": 45.04,
+          "vwap": 50.307024,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03 09:30:00-05:00",
+            "volume": 5171500.0,
+            "close": 50.93
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 42.46,
+          "close": 50.31,
+          "high": 54.28,
+          "low": 42.21,
+          "vwap": 49.116466,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03 09:30:00-05:00",
+            "volume": 5171500.0,
+            "close": 50.93
+          },
+          "bar_count": 3708
+        },
+        "20d": {
+          "open": 51.7,
+          "close": 50.31,
+          "high": 52.88,
+          "low": 50.17,
+          "vwap": 51.653623,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30",
+            "volume": 14194881.0,
+            "close": 51.68
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 53.79,
+          "close": 50.31,
+          "high": 54.28,
+          "low": 46.02,
+          "vwap": 50.990133,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-12",
+            "volume": 28960251.0,
+            "close": 52.65
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 42.46,
+          "close": 50.31,
+          "high": 54.28,
+          "low": 42.21,
+          "vwap": 49.116425,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-04",
+            "volume": 33167836.0,
+            "close": 51.99
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 42.62,
+          "close": 50.31,
+          "high": 54.28,
+          "low": 42.04,
+          "vwap": 47.128675,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-04",
+            "volume": 33167836.0,
+            "close": 51.99
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 51.59,
+          "close": 50.31,
+          "high": 52.52,
+          "low": 50.17,
+          "vwap": 51.664711,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 10439623.0,
+            "close": 50.31
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 51.3,
+          "close": 51.54,
+          "high": 52.88,
+          "low": 50.5,
+          "vwap": 51.649519,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 11774702.0,
+            "close": 51.4
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 51.47,
+          "close": 50.31,
+          "high": 52.88,
+          "low": 50.17,
+          "vwap": 51.647328,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 11774702.0,
+            "close": 51.4
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 50.05,
+          "close": 51.68,
+          "high": 52.57,
+          "low": 49.5,
+          "vwap": 51.358375,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 18875090.0,
+            "close": 50.62
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 53.43,
+            "month": "2026-02"
+          },
+          {
+            "close": 49.94,
+            "month": "2026-03"
+          },
+          {
+            "close": 51.68,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3708,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLRE": {
+      "meta": {
+        "symbol": "XLRE",
+        "label": "SPDR Real Estate ETF",
+        "provider_symbol": "XLRE",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:06:35 CET",
+        "age_seconds": 394,
+        "status": "NO_DATA",
+        "sector": "Real Estate",
+        "classification": "defensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 44.42,
+        "current_week_open": 44.29,
+        "prior_month_close": 44.3,
+        "current_month_open": 44.52
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 44.04,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 43.01,
+          "vwap": 44.28568,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07 15:30:00-04:00",
+            "volume": 2240169.0,
+            "close": 44.39
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 43.36,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 43.01,
+          "vwap": 44.105414,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-29 13:30:00-04:00",
+            "volume": 5001390.0,
+            "close": 43.78
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 40.45,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 40.35,
+          "vwap": 43.196036,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-29 13:30:00-04:00",
+            "volume": 5001390.0,
+            "close": 43.78
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 40.5,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 39.72,
+          "vwap": 42.00523,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15 15:00:00-05:00",
+            "volume": 13262954.0,
+            "close": 41.64
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 40.79,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 39.72,
+          "vwap": 41.874235,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15 15:00:00-05:00",
+            "volume": 13262954.0,
+            "close": 41.64
+          },
+          "bar_count": 3526
+        },
+        "20d": {
+          "open": 44.17,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 43.01,
+          "vwap": 44.096316,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-29",
+            "volume": 8803975.0,
+            "close": 43.21
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 43.2,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 39.94,
+          "vwap": 42.732469,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-12",
+            "volume": 16408501.0,
+            "close": 42.82
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 40.79,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 39.72,
+          "vwap": 41.87426,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15",
+            "volume": 22651353.0,
+            "close": 41.74
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 40.61,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 39.72,
+          "vwap": 41.795609,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15",
+            "volume": 22651353.0,
+            "close": 41.74
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 44.29,
+          "close": 43.01,
+          "high": 44.81,
+          "low": 43.01,
+          "vwap": 44.135554,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-13",
+            "volume": 4770290.0,
+            "close": 44.28
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 44.33,
+          "close": 44.42,
+          "high": 44.91,
+          "low": 43.85,
+          "vwap": 44.388917,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 6455495.0,
+            "close": 44.49
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 44.52,
+          "close": 43.01,
+          "high": 44.91,
+          "low": 43.01,
+          "vwap": 44.277844,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-01",
+            "volume": 6780335.0,
+            "close": 44.4
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 41.04,
+          "close": 44.3,
+          "high": 44.7,
+          "low": 40.5,
+          "vwap": 42.963693,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 11039464.0,
+            "close": 40.97
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_up",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "weak",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 44.04,
+            "month": "2026-02"
+          },
+          {
+            "close": 40.86,
+            "month": "2026-03"
+          },
+          {
+            "close": 44.3,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3526,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLU": {
+      "meta": {
+        "symbol": "XLU",
+        "label": "SPDR Utilities ETF",
+        "provider_symbol": "XLU",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:07:05 CET",
+        "age_seconds": 425,
+        "status": "NO_DATA",
+        "sector": "Utilities",
+        "classification": "defensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 44.76,
+        "current_week_open": 44.86,
+        "prior_month_close": 46.75,
+        "current_month_open": 46.89
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 45.74,
+          "close": 43.93,
+          "high": 45.86,
+          "low": 43.82,
+          "vwap": 44.852049,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 15:30:00-04:00",
+            "volume": 6407974.0,
+            "close": 45.22
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 46.33,
+          "close": 43.93,
+          "high": 47.3,
+          "low": 43.82,
+          "vwap": 45.524425,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12 15:30:00-04:00",
+            "volume": 6407974.0,
+            "close": 45.22
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 46.09,
+          "close": 43.93,
+          "high": 47.71,
+          "low": 43.82,
+          "vwap": 45.852859,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-24 12:00:00-04:00",
+            "volume": 6550862.0,
+            "close": 46.14
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 42.87,
+          "close": 43.93,
+          "high": 47.8,
+          "low": 41.74,
+          "vwap": 45.206786,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20 15:30:00-04:00",
+            "volume": 11615029.0,
+            "close": 44.65
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 44.29,
+          "close": 43.93,
+          "high": 47.8,
+          "low": 41.74,
+          "vwap": 44.903991,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20 15:30:00-04:00",
+            "volume": 11615029.0,
+            "close": 44.65
+          },
+          "bar_count": 4012
+        },
+        "20d": {
+          "open": 46.18,
+          "close": 43.93,
+          "high": 47.3,
+          "low": 43.82,
+          "vwap": 45.57962,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-13",
+            "volume": 25377866.0,
+            "close": 44.64
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 44.67,
+          "close": 43.93,
+          "high": 47.8,
+          "low": 43.82,
+          "vwap": 46.182945,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 55667445.0,
+            "close": 47.07
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 44.29,
+          "close": 43.93,
+          "high": 47.8,
+          "low": 41.74,
+          "vwap": 44.903955,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 55667445.0,
+            "close": 47.07
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 39.69,
+          "close": 43.93,
+          "high": 47.8,
+          "low": 39.58,
+          "vwap": 43.724327,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 55667445.0,
+            "close": 47.07
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 44.86,
+          "close": 43.93,
+          "high": 45.38,
+          "low": 43.82,
+          "vwap": 44.760359,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-13",
+            "volume": 25377866.0,
+            "close": 44.64
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 46.46,
+          "close": 44.76,
+          "high": 46.85,
+          "low": 44.69,
+          "vwap": 45.767586,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 24427120.0,
+            "close": 45.84
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 46.89,
+          "close": 43.93,
+          "high": 47.3,
+          "low": 43.82,
+          "vwap": 45.344171,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-13",
+            "volume": 25377866.0,
+            "close": 44.64
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 45.98,
+          "close": 46.75,
+          "high": 47.71,
+          "low": 44.71,
+          "vwap": 46.192031,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 29620474.0,
+            "close": 46.14
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 47.79,
+            "month": "2026-02"
+          },
+          {
+            "close": 45.81,
+            "month": "2026-03"
+          },
+          {
+            "close": 46.75,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4012,
+        "1d_bars_collected": 365
+      }
+    },
+    "XLC": {
+      "meta": {
+        "symbol": "XLC",
+        "label": "SPDR Communication Services ETF",
+        "provider_symbol": "XLC",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:07:11 CET",
+        "age_seconds": 430,
+        "status": "NO_DATA",
+        "sector": "Communication Services",
+        "classification": "offensive"
+      },
+      "anchor_levels": {
+        "prior_week_close": 116.77,
+        "current_week_open": 116.45,
+        "prior_month_close": 116.74,
+        "current_month_open": 116.89
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 115.54,
+          "close": 115.87,
+          "high": 118.2,
+          "low": 112.0,
+          "vwap": 116.52978,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06 15:30:00-04:00",
+            "volume": 2167968.0,
+            "close": 117.33
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 117.99,
+          "close": 115.87,
+          "high": 118.35,
+          "low": 112.0,
+          "vwap": 116.349808,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06 15:30:00-04:00",
+            "volume": 2167968.0,
+            "close": 117.33
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 107.04,
+          "close": 115.87,
+          "high": 120.0,
+          "low": 106.77,
+          "vwap": 114.906669,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06 15:30:00-04:00",
+            "volume": 2167968.0,
+            "close": 117.33
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 114.84,
+          "close": 115.87,
+          "high": 120.41,
+          "low": 106.72,
+          "vwap": 115.816798,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15 15:30:00-05:00",
+            "volume": 4486151.0,
+            "close": 116.21
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 112.21,
+          "close": 115.87,
+          "high": 120.41,
+          "low": 106.72,
+          "vwap": 115.466178,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-15 15:30:00-05:00",
+            "volume": 4486151.0,
+            "close": 116.21
+          },
+          "bar_count": 3409
+        },
+        "20d": {
+          "open": 120.0,
+          "close": 115.87,
+          "high": 120.0,
+          "low": 112.0,
+          "vwap": 116.547908,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-01",
+            "volume": 6402550.0,
+            "close": 116.96
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 117.02,
+          "close": 115.87,
+          "high": 120.0,
+          "low": 106.72,
+          "vwap": 115.032471,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 10978203.0,
+            "close": 117.96
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 112.21,
+          "close": 115.87,
+          "high": 120.41,
+          "low": 106.72,
+          "vwap": 115.466191,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-05",
+            "volume": 12747674.0,
+            "close": 115.11
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 100.75,
+          "close": 115.87,
+          "high": 120.41,
+          "low": 99.27,
+          "vwap": 112.968802,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-05",
+            "volume": 12747674.0,
+            "close": 115.11
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 116.45,
+          "close": 115.87,
+          "high": 117.97,
+          "low": 114.97,
+          "vwap": 116.227746,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-12",
+            "volume": 4208781.0,
+            "close": 115.9
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 116.71,
+          "close": 116.77,
+          "high": 118.2,
+          "low": 112.0,
+          "vwap": 116.711291,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-06",
+            "volume": 5398508.0,
+            "close": 117.4
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 116.89,
+          "close": 115.87,
+          "high": 118.2,
+          "low": 112.0,
+          "vwap": 116.540827,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-01",
+            "volume": 6402550.0,
+            "close": 116.96
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 111.66,
+          "close": 116.74,
+          "high": 120.0,
+          "low": 109.49,
+          "vwap": 115.11315,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 6538571.0,
+            "close": 111.1
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_pause",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 118.18,
+            "month": "2026-02"
+          },
+          {
+            "close": 111.2,
+            "month": "2026-03"
+          },
+          {
+            "close": 116.74,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3409,
+        "1d_bars_collected": 365
+      }
+    },
+    "HYG": {
+      "meta": {
+        "symbol": "HYG",
+        "label": "iShares High Yield Corp Bond ETF",
+        "provider_symbol": "HYG",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:07:24 CET",
+        "age_seconds": 443,
+        "status": "NO_DATA",
+        "credit_type": "high_yield"
+      },
+      "anchor_levels": {
+        "prior_week_close": 80.14,
+        "current_week_open": 80.1,
+        "prior_month_close": 80.38,
+        "current_month_open": 80.11
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 79.94,
+          "close": 79.55,
+          "high": 80.26,
+          "low": 79.46,
+          "vwap": 79.922933,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 15:30:00-04:00",
+            "volume": 7507290.0,
+            "close": 79.48
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 80.48,
+          "close": 79.55,
+          "high": 80.55,
+          "low": 79.46,
+          "vwap": 80.08154,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 15:30:00-04:00",
+            "volume": 9731400.0,
+            "close": 80.36
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 79.0,
+          "close": 79.55,
+          "high": 80.76,
+          "low": 78.75,
+          "vwap": 80.025261,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01 09:30:00-04:00",
+            "volume": 11077250.0,
+            "close": 79.3
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 80.67,
+          "close": 79.55,
+          "high": 81.28,
+          "low": 78.17,
+          "vwap": 80.218599,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20 15:30:00-04:00",
+            "volume": 24648135.0,
+            "close": 78.95
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 80.29,
+          "close": 79.55,
+          "high": 81.28,
+          "low": 78.17,
+          "vwap": 80.249537,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20 15:30:00-04:00",
+            "volume": 24648135.0,
+            "close": 78.95
+          },
+          "bar_count": 3499
+        },
+        "20d": {
+          "open": 80.55,
+          "close": 79.55,
+          "high": 80.67,
+          "low": 79.46,
+          "vwap": 80.148849,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-21",
+            "volume": 53357241.0,
+            "close": 80.4
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 80.99,
+          "close": 79.55,
+          "high": 81.02,
+          "low": 78.17,
+          "vwap": 79.948728,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 106346390.0,
+            "close": 80.21
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 80.29,
+          "close": 79.55,
+          "high": 81.28,
+          "low": 78.17,
+          "vwap": 80.249557,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 106346390.0,
+            "close": 80.21
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 79.08,
+          "close": 79.55,
+          "high": 81.37,
+          "low": 78.17,
+          "vwap": 80.286993,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-03",
+            "volume": 106346390.0,
+            "close": 80.21
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 80.1,
+          "close": 79.55,
+          "high": 80.15,
+          "low": 79.46,
+          "vwap": 79.818504,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 45910383.0,
+            "close": 79.55
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 80.11,
+          "close": 80.14,
+          "high": 80.26,
+          "low": 79.69,
+          "vwap": 80.006681,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-07",
+            "volume": 38149335.0,
+            "close": 79.86
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 80.11,
+          "close": 79.55,
+          "high": 80.26,
+          "low": 79.46,
+          "vwap": 79.934182,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 45910383.0,
+            "close": 79.55
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 79.44,
+          "close": 80.38,
+          "high": 80.76,
+          "low": 79.0,
+          "vwap": 80.158055,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 54439344.0,
+            "close": 79.37
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 80.67,
+            "month": "2026-02"
+          },
+          {
+            "close": 79.63,
+            "month": "2026-03"
+          },
+          {
+            "close": 80.38,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3499,
+        "1d_bars_collected": 365
+      }
+    },
+    "JNK": {
+      "meta": {
+        "symbol": "JNK",
+        "label": "SPDR Bloomberg High Yield Bond ETF",
+        "provider_symbol": "JNK",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:07:53 CET",
+        "age_seconds": 473,
+        "status": "NO_DATA",
+        "credit_type": "high_yield"
+      },
+      "anchor_levels": {
+        "prior_week_close": 96.4,
+        "current_week_open": 96.63,
+        "prior_month_close": 96.9,
+        "current_month_open": 96.81
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 96.36,
+          "close": 95.84,
+          "high": 97.0,
+          "low": 95.7,
+          "vwap": 96.245223,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08 11:00:00-04:00",
+            "volume": 2870766.0,
+            "close": 96.43
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 96.99,
+          "close": 95.84,
+          "high": 97.31,
+          "low": 95.7,
+          "vwap": 96.47776,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08 11:00:00-04:00",
+            "volume": 2870766.0,
+            "close": 96.43
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 94.95,
+          "close": 95.84,
+          "high": 97.31,
+          "low": 94.37,
+          "vwap": 95.971029,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08 11:00:00-04:00",
+            "volume": 2870766.0,
+            "close": 96.43
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 96.91,
+          "close": 95.84,
+          "high": 98.5,
+          "low": 94.37,
+          "vwap": 96.59895,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08 11:00:00-04:00",
+            "volume": 2870766.0,
+            "close": 96.43
+          },
+          "bar_count": 2944
+        },
+        "26w_30m": {
+          "open": 96.91,
+          "close": 95.84,
+          "high": 98.5,
+          "low": 94.37,
+          "vwap": 96.59895,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08 11:00:00-04:00",
+            "volume": 2870766.0,
+            "close": 96.43
+          },
+          "bar_count": 2944
+        },
+        "20d": {
+          "open": 97.09,
+          "close": 95.84,
+          "high": 97.31,
+          "low": 95.7,
+          "vwap": 96.497933,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08",
+            "volume": 6184320.0,
+            "close": 96.4
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 97.58,
+          "close": 95.84,
+          "high": 97.88,
+          "low": 94.37,
+          "vwap": 96.135129,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-12",
+            "volume": 15018557.0,
+            "close": 95.47
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 96.91,
+          "close": 95.84,
+          "high": 98.5,
+          "low": 94.37,
+          "vwap": 96.598888,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-12",
+            "volume": 15018557.0,
+            "close": 95.47
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 95.27,
+          "close": 95.84,
+          "high": 98.68,
+          "low": 94.37,
+          "vwap": 96.704473,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-12",
+            "volume": 15018557.0,
+            "close": 95.47
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 96.63,
+          "close": 95.84,
+          "high": 96.63,
+          "low": 95.7,
+          "vwap": 96.141905,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 3366771.0,
+            "close": 95.84
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 96.36,
+          "close": 96.4,
+          "high": 97.0,
+          "low": 95.92,
+          "vwap": 96.33313,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08",
+            "volume": 6184320.0,
+            "close": 96.4
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 96.81,
+          "close": 95.84,
+          "high": 97.0,
+          "low": 95.7,
+          "vwap": 96.262953,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08",
+            "volume": 6184320.0,
+            "close": 96.4
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 95.42,
+          "close": 96.9,
+          "high": 97.31,
+          "low": 95.1,
+          "vwap": 96.365301,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-01",
+            "volume": 9103561.0,
+            "close": 95.48
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 97.25,
+            "month": "2026-02"
+          },
+          {
+            "close": 95.72,
+            "month": "2026-03"
+          },
+          {
+            "close": 96.9,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 2944,
+        "1d_bars_collected": 365
+      }
+    },
+    "LQD": {
+      "meta": {
+        "symbol": "LQD",
+        "label": "iShares Investment Grade Corp Bond ETF",
+        "provider_symbol": "LQD",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:08:06 CET",
+        "age_seconds": 485,
+        "status": "NO_DATA",
+        "credit_type": "invest_grade"
+      },
+      "anchor_levels": {
+        "prior_week_close": 109.25,
+        "current_week_open": 109.05,
+        "prior_month_close": 109.08,
+        "current_month_open": 108.69
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 108.65,
+          "close": 107.82,
+          "high": 109.51,
+          "low": 107.63,
+          "vwap": 108.625288,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 15:30:00-04:00",
+            "volume": 5993491.0,
+            "close": 107.86
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 109.87,
+          "close": 107.82,
+          "high": 109.95,
+          "low": 107.63,
+          "vwap": 108.824689,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30 15:30:00-04:00",
+            "volume": 6678440.0,
+            "close": 108.86
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 107.66,
+          "close": 107.82,
+          "high": 110.29,
+          "low": 107.5,
+          "vwap": 109.082239,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08 09:30:00-04:00",
+            "volume": 13616214.0,
+            "close": 109.8
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 110.88,
+          "close": 107.82,
+          "high": 111.93,
+          "low": 106.84,
+          "vwap": 109.933044,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08 09:30:00-04:00",
+            "volume": 13616214.0,
+            "close": 109.8
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 110.95,
+          "close": 107.82,
+          "high": 112.06,
+          "low": 106.84,
+          "vwap": 110.044509,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08 09:30:00-04:00",
+            "volume": 13616214.0,
+            "close": 109.8
+          },
+          "bar_count": 3374
+        },
+        "20d": {
+          "open": 110.0,
+          "close": 107.82,
+          "high": 110.12,
+          "low": 107.63,
+          "vwap": 108.941141,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 47371627.0,
+            "close": 107.82
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 110.78,
+          "close": 107.82,
+          "high": 111.93,
+          "low": 106.84,
+          "vwap": 109.595126,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-10",
+            "volume": 69229248.0,
+            "close": 110.14
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 110.95,
+          "close": 107.82,
+          "high": 112.06,
+          "low": 106.84,
+          "vwap": 110.044518,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-10",
+            "volume": 69229248.0,
+            "close": 110.14
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 106.25,
+          "close": 107.82,
+          "high": 113.1,
+          "low": 105.39,
+          "vwap": 109.9608,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-10",
+            "volume": 69229248.0,
+            "close": 110.14
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 109.05,
+          "close": 107.82,
+          "high": 109.21,
+          "low": 107.63,
+          "vwap": 108.372885,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 47371627.0,
+            "close": 107.82
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 108.46,
+          "close": 109.25,
+          "high": 109.51,
+          "low": 107.91,
+          "vwap": 108.837664,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-05",
+            "volume": 32469823.0,
+            "close": 108.65
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 108.69,
+          "close": 107.82,
+          "high": 109.51,
+          "low": 107.63,
+          "vwap": 108.607195,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 47371627.0,
+            "close": 107.82
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 108.8,
+          "close": 109.08,
+          "high": 110.29,
+          "low": 108.27,
+          "vwap": 109.407472,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-08",
+            "volume": 61452312.0,
+            "close": 109.5
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "recovering",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 111.77,
+            "month": "2026-02"
+          },
+          {
+            "close": 109.02,
+            "month": "2026-03"
+          },
+          {
+            "close": 109.08,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3374,
+        "1d_bars_collected": 365
+      }
+    },
+    "TLT": {
+      "meta": {
+        "symbol": "TLT",
+        "label": "iShares 20+ Year Treasury Bond ETF",
+        "provider_symbol": "TLT",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:08:18 CET",
+        "age_seconds": 497,
+        "status": "NO_DATA",
+        "credit_type": "treasury"
+      },
+      "anchor_levels": {
+        "prior_week_close": 86.17,
+        "current_week_open": 85.81,
+        "prior_month_close": 85.85,
+        "current_month_open": 85.46
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 86.07,
+          "close": 83.77,
+          "high": 86.45,
+          "low": 83.59,
+          "vwap": 84.983565,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 16:00:00-04:00",
+            "volume": 8536770.0,
+            "close": 83.67
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 86.3,
+          "close": 83.77,
+          "high": 86.48,
+          "low": 83.59,
+          "vwap": 85.315697,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 16:00:00-04:00",
+            "volume": 8536770.0,
+            "close": 83.67
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 86.42,
+          "close": 83.77,
+          "high": 87.7,
+          "low": 83.59,
+          "vwap": 85.928214,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 16:00:00-04:00",
+            "volume": 8536770.0,
+            "close": 83.67
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 87.62,
+          "close": 83.77,
+          "high": 91.03,
+          "low": 83.59,
+          "vwap": 87.459064,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-20 10:00:00-05:00",
+            "volume": 14522127.0,
+            "close": 89.21
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 89.58,
+          "close": 83.77,
+          "high": 91.03,
+          "low": 83.59,
+          "vwap": 87.768011,
+          "peak_volume_bar": {
+            "time_utc": "2026-02-20 10:00:00-05:00",
+            "volume": 14522127.0,
+            "close": 89.21
+          },
+          "bar_count": 4148
+        },
+        "20d": {
+          "open": 86.96,
+          "close": 83.77,
+          "high": 87.26,
+          "low": 83.59,
+          "vwap": 85.627261,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 45585960.0,
+            "close": 83.77
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 88.16,
+          "close": 83.77,
+          "high": 91.03,
+          "low": 83.59,
+          "vwap": 87.431281,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20",
+            "volume": 70722008.0,
+            "close": 86.2
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 89.58,
+          "close": 83.77,
+          "high": 91.03,
+          "low": 83.59,
+          "vwap": 87.767965,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-20",
+            "volume": 70722008.0,
+            "close": 86.2
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 85.48,
+          "close": 83.77,
+          "high": 92.36,
+          "low": 83.04,
+          "vwap": 87.67864,
+          "peak_volume_bar": {
+            "time_utc": "2025-05-21",
+            "volume": 72659079.0,
+            "close": 83.76
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 85.81,
+          "close": 83.77,
+          "high": 85.92,
+          "low": 83.59,
+          "vwap": 84.631865,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 45585960.0,
+            "close": 83.77
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 85.58,
+          "close": 86.17,
+          "high": 86.45,
+          "low": 84.76,
+          "vwap": 85.671242,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-08",
+            "volume": 25796587.0,
+            "close": 86.17
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 85.46,
+          "close": 83.77,
+          "high": 86.45,
+          "low": 83.59,
+          "vwap": 85.150044,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 45585960.0,
+            "close": 83.77
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 86.82,
+          "close": 85.85,
+          "high": 87.7,
+          "low": 85.38,
+          "vwap": 86.540309,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-02",
+            "volume": 31288819.0,
+            "close": 86.8
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_down",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 90.77,
+            "month": "2026-02"
+          },
+          {
+            "close": 86.75,
+            "month": "2026-03"
+          },
+          {
+            "close": 85.85,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 4148,
+        "1d_bars_collected": 365
+      }
+    },
+    "IEF": {
+      "meta": {
+        "symbol": "IEF",
+        "label": "iShares 7-10 Year Treasury Bond ETF",
+        "provider_symbol": "IEF",
+        "exchange": "SMART",
+        "asset_class": "etf",
+        "currency": "USD",
+        "collected_at": "2026-05-16 03:08:29 CET",
+        "age_seconds": 509,
+        "status": "NO_DATA",
+        "credit_type": "treasury"
+      },
+      "anchor_levels": {
+        "prior_week_close": 95.0,
+        "current_week_open": 94.82,
+        "prior_month_close": 94.99,
+        "current_month_open": 94.87
+      },
+      "windows": {
+        "5d_30m": {
+          "open": 94.96,
+          "close": 93.6,
+          "high": 95.25,
+          "low": 93.47,
+          "vwap": 94.343955,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15 15:30:00-04:00",
+            "volume": 2210316.0,
+            "close": 93.53
+          },
+          "bar_count": 230
+        },
+        "10d_30m": {
+          "open": 95.52,
+          "close": 93.6,
+          "high": 95.56,
+          "low": 93.47,
+          "vwap": 94.627779,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-05 13:30:00-04:00",
+            "volume": 4090225.0,
+            "close": 94.56
+          },
+          "bar_count": 460
+        },
+        "20d_30m": {
+          "open": 94.92,
+          "close": 93.6,
+          "high": 96.05,
+          "low": 93.47,
+          "vwap": 95.049356,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-09 16:00:00-04:00",
+            "volume": 4437284.0,
+            "close": 95.5
+          },
+          "bar_count": 920
+        },
+        "13w_30m": {
+          "open": 96.26,
+          "close": 93.6,
+          "high": 98.1,
+          "low": 93.47,
+          "vwap": 95.861303,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-28 14:00:00-05:00",
+            "volume": 7290400.0,
+            "close": 95.74
+          },
+          "bar_count": 2990
+        },
+        "26w_30m": {
+          "open": 96.69,
+          "close": 93.6,
+          "high": 98.1,
+          "low": 93.47,
+          "vwap": 96.05357,
+          "peak_volume_bar": {
+            "time_utc": "2026-01-28 14:00:00-05:00",
+            "volume": 7290400.0,
+            "close": 95.74
+          },
+          "bar_count": 3938
+        },
+        "20d": {
+          "open": 95.55,
+          "close": 93.6,
+          "high": 95.92,
+          "low": 93.47,
+          "vwap": 94.820779,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-30",
+            "volume": 10166873.0,
+            "close": 94.99
+          },
+          "bar_count": 20
+        },
+        "13w": {
+          "open": 96.31,
+          "close": 93.6,
+          "high": 98.1,
+          "low": 93.47,
+          "vwap": 95.778957,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 27467550.0,
+            "close": 95.2
+          },
+          "bar_count": 65
+        },
+        "26w": {
+          "open": 96.69,
+          "close": 93.6,
+          "high": 98.1,
+          "low": 93.47,
+          "vwap": 96.053606,
+          "peak_volume_bar": {
+            "time_utc": "2026-03-23",
+            "volume": 27467550.0,
+            "close": 95.2
+          },
+          "bar_count": 130
+        },
+        "52w": {
+          "open": 93.35,
+          "close": 93.6,
+          "high": 98.1,
+          "low": 92.96,
+          "vwap": 95.846532,
+          "peak_volume_bar": {
+            "time_utc": "2025-09-12",
+            "volume": 36078307.0,
+            "close": 96.94
+          },
+          "bar_count": 252
+        },
+        "current_week": {
+          "open": 94.82,
+          "close": 93.6,
+          "high": 94.88,
+          "low": 93.47,
+          "vwap": 94.129722,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-15",
+            "volume": 9734883.0,
+            "close": 93.6
+          },
+          "bar_count": 5
+        },
+        "prior_week": {
+          "open": 94.72,
+          "close": 95.0,
+          "high": 95.25,
+          "low": 94.22,
+          "vwap": 94.691254,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-05",
+            "volume": 10136543.0,
+            "close": 94.48
+          },
+          "bar_count": 5
+        },
+        "current_month": {
+          "open": 94.87,
+          "close": 93.6,
+          "high": 95.25,
+          "low": 93.47,
+          "vwap": 94.458807,
+          "peak_volume_bar": {
+            "time_utc": "2026-05-05",
+            "volume": 10136543.0,
+            "close": 94.48
+          },
+          "bar_count": 11
+        },
+        "prior_month": {
+          "open": 95.38,
+          "close": 94.99,
+          "high": 96.05,
+          "low": 94.59,
+          "vwap": 95.350454,
+          "peak_volume_bar": {
+            "time_utc": "2026-04-02",
+            "volume": 12540196.0,
+            "close": 95.25
+          },
+          "bar_count": 21
+        }
+      },
+      "comparisons": {},
+      "derived": {
+        "daily_regime": "trend_down",
+        "weekly_regime": "trend_down",
+        "monthly_regime": "trend_down",
+        "is_breaking_5d_high": null,
+        "is_breaking_5d_low": null,
+        "is_breaking_20d_high": null,
+        "is_breaking_20d_low": null,
+        "is_breaking_52w_high": null,
+        "is_breaking_52w_low": null,
+        "trend_confirmation_score": "not_confirmed",
+        "stretch_score": "unavailable",
+        "reversal_risk_score": "low",
+        "month_end_closes_used": [
+          {
+            "close": 98.1,
+            "month": "2026-02"
+          },
+          {
+            "close": 95.53,
+            "month": "2026-03"
+          },
+          {
+            "close": 94.99,
+            "month": "2026-04"
+          }
+        ]
+      },
+      "bar_counts": {
+        "30m_bars_collected": 3938,
+        "1d_bars_collected": 365
+      }
+    }
+  },
+  "errors": []
+}
