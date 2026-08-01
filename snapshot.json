@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "source": "ibkr",
   "mode": "delayed_auto_roll",
-  "snapshot_time": "2026-08-01 07:21:21 CET",
-  "snapshot_time_utc": "2026-08-01T05:21:21Z",
+  "snapshot_time": "2026-08-01 07:31:21 CET",
+  "snapshot_time_utc": "2026-08-01T05:31:21Z",
   "age_seconds": 0,
   "age_minutes": 0.0,
   "freshness": "OK",
   "session_context": {
     "timezone": "Europe/Berlin",
-    "current_time_cet": "07:21 CET",
+    "current_time_cet": "07:31 CET",
     "is_rth_us": false,
     "is_eth_us": true,
     "is_europe_open": false,
@@ -21,12 +21,12 @@
   "market_summary": {
     "equity_tone": "flat",
     "rates_tone": "unavailable",
-    "oil_tone": "flat",
-    "gold_tone": "flat",
+    "oil_tone": "up",
+    "gold_tone": "down",
     "vol_tone": "flat",
     "usd_tone": "unavailable",
     "cross_asset_alignment": "mixed",
-    "edna_regime_hint": "below_close_watch"
+    "edna_regime_hint": "above_close_watch"
   },
   "sector_rotation": {
     "available": true,
@@ -36,18 +36,18 @@
       "XLC"
     ],
     "laggards": [
-      "XLU",
+      "XLK",
       "XLV",
       "XLB"
     ],
     "rotation_theme": "risk_on_rotation",
     "sectors_up": 4,
-    "sectors_down": 5,
-    "breadth": "4/9 sectors advancing",
+    "sectors_down": 6,
+    "breadth": "4/10 sectors advancing",
     "breadth_score": "narrow",
-    "offensive_avg_chg_pct": 0.86,
+    "offensive_avg_chg_pct": 0.64,
     "defensive_avg_chg_pct": -0.67,
-    "offense_defense_spread": 1.53,
+    "offense_defense_spread": 1.31,
     "offense_defense_score": "offense_leading",
     "ranked": [
       {
@@ -55,63 +55,70 @@
         "sector": "Consumer Discretionary",
         "classification": "offensive",
         "change_pct": 3.43,
-        "rel_vs_es_pct": 3.43
+        "rel_vs_es_pct": 3.02
       },
       {
         "symbol": "XLE",
         "sector": "Energy",
         "classification": "offensive",
         "change_pct": 2.17,
-        "rel_vs_es_pct": 2.17
+        "rel_vs_es_pct": 1.76
       },
       {
         "symbol": "XLC",
         "sector": "Communication Services",
         "classification": "offensive",
         "change_pct": 1.56,
-        "rel_vs_es_pct": 1.56
+        "rel_vs_es_pct": 1.15
       },
       {
         "symbol": "XLI",
         "sector": "Industrials",
         "classification": "offensive",
         "change_pct": 0.18,
-        "rel_vs_es_pct": 0.18
+        "rel_vs_es_pct": -0.23
       },
       {
         "symbol": "XLF",
         "sector": "Financials",
         "classification": "offensive",
         "change_pct": -0.04,
-        "rel_vs_es_pct": -0.04
+        "rel_vs_es_pct": -0.45
       },
       {
         "symbol": "XLRE",
         "sector": "Real Estate",
         "classification": "defensive",
         "change_pct": -0.51,
-        "rel_vs_es_pct": -0.51
+        "rel_vs_es_pct": -0.92
       },
       {
         "symbol": "XLU",
         "sector": "Utilities",
         "classification": "defensive",
         "change_pct": -0.58,
-        "rel_vs_es_pct": -0.58
+        "rel_vs_es_pct": -0.99
+      },
+      {
+        "symbol": "XLK",
+        "sector": "Technology",
+        "classification": "offensive",
+        "change_pct": -0.7,
+        "rel_vs_es_pct": -1.11
       },
       {
         "symbol": "XLV",
         "sector": "Health Care",
         "classification": "defensive",
         "change_pct": -0.93,
-        "rel_vs_es_pct": -0.93
+        "rel_vs_es_pct": -1.34
       },
       {
         "symbol": "XLB",
         "sector": "Materials",
         "classification": "offensive",
         "change_pct": -2.15,
-        "rel_vs_es_pct": -2.15
+        "rel_vs_es_pct": -2.56
       }
     ]
   },
@@ -138,17 +145,17 @@
       "exchange": "CME",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:07 CET",
-      "time_utc": "2026-08-01T05:20:07Z",
+      "time": "2026-08-01 07:30:07 CET",
+      "time_utc": "2026-08-01T05:30:07Z",
       "age_seconds": 7,
       "freshness": "OK",
-      "last": 7472.5,
+      "last": 7503.5,
       "bid": null,
       "ask": null,
       "mid": null,
       "close": 7472.5,
-      "change_abs": 0.0,
-      "change_pct": 0.0,
+      "change_abs": 31.0,
+      "change_pct": 0.41,
       "session": {
         "overnight_open": null,
         "overnight_high": null,
@@ -162,12 +169,12 @@
         "overnight_position_in_range": null
       },
       "derived": {
-        "direction_vs_close": "flat",
+        "direction_vs_close": "up",
         "overnight_regime": null,
-        "above_prior_rth_close": false,
+        "above_prior_rth_close": true,
         "above_europe_open": null,
-        "stretch_vs_close_points": 0.0,
-        "stretch_vs_close_pct": 0.0
+        "stretch_vs_close_points": 31.0,
+        "stretch_vs_close_pct": 0.41
       },
       "status": "OK"
     },
@@ -178,17 +185,17 @@
       "exchange": "CME",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:11 CET",
-      "time_utc": "2026-08-01T05:20:11Z",
+      "time": "2026-08-01 07:30:11 CET",
+      "time_utc": "2026-08-01T05:30:11Z",
       "age_seconds": 10,
       "freshness": "OK",
-      "last": 28237.75,
+      "last": 28287.0,
       "bid": null,
       "ask": null,
       "mid": null,
       "close": 28237.75,
-      "change_abs": 0.0,
-      "change_pct": 0.0,
+      "change_abs": 49.25,
+      "change_pct": 0.17,
       "session": {
         "overnight_open": null,
         "overnight_high": null,
@@ -202,12 +209,12 @@
         "overnight_position_in_range": null
       },
       "derived": {
-        "direction_vs_close": "flat",
+        "direction_vs_close": "up",
         "overnight_regime": null,
-        "above_prior_rth_close": false,
+        "above_prior_rth_close": true,
         "above_europe_open": null,
-        "stretch_vs_close_points": 0.0,
-        "stretch_vs_close_pct": 0.0
+        "stretch_vs_close_points": 49.25,
+        "stretch_vs_close_pct": 0.17
       },
       "status": "OK"
     },
@@ -218,17 +225,17 @@
       "exchange": "CME",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:14 CET",
-      "time_utc": "2026-08-01T05:20:14Z",
+      "time": "2026-08-01 07:30:14 CET",
+      "time_utc": "2026-08-01T05:30:14Z",
       "age_seconds": 13,
       "freshness": "OK",
-      "last": 2954.3,
+      "last": 2928.4,
       "bid": null,
       "ask": null,
       "mid": null,
       "close": 2954.3,
-      "change_abs": 0.0,
-      "change_pct": 0.0,
+      "change_abs": -25.9,
+      "change_pct": -0.88,
       "session": {
         "overnight_open": null,
         "overnight_high": null,
@@ -242,12 +249,12 @@
         "overnight_position_in_range": null
       },
       "derived": {
-        "direction_vs_close": "flat",
+        "direction_vs_close": "down",
         "overnight_regime": null,
         "above_prior_rth_close": false,
         "above_europe_open": null,
-        "stretch_vs_close_points": 0.0,
-        "stretch_vs_close_pct": 0.0
+        "stretch_vs_close_points": -25.9,
+        "stretch_vs_close_pct": -0.88
       },
       "status": "OK"
     },
@@ -258,17 +265,17 @@
       "exchange": "CBOT",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:17 CET",
-      "time_utc": "2026-08-01T05:20:17Z",
+      "time": "2026-08-01 07:30:17 CET",
+      "time_utc": "2026-08-01T05:30:17Z",
       "age_seconds": 16,
       "freshness": "OK",
-      "last": 52380.0,
+      "last": 52524.0,
       "bid": null,
       "ask": null,
       "mid": null,
       "close": 52380.0,
-      "change_abs": 0.0,
-      "change_pct": 0.0,
+      "change_abs": 144.0,
+      "change_pct": 0.27,
       "session": {
         "overnight_open": null,
         "overnight_high": null,
@@ -282,12 +289,12 @@
         "overnight_position_in_range": null
       },
       "derived": {
-        "direction_vs_close": "flat",
+        "direction_vs_close": "up",
         "overnight_regime": null,
-        "above_prior_rth_close": false,
+        "above_prior_rth_close": true,
         "above_europe_open": null,
-        "stretch_vs_close_points": 0.0,
-        "stretch_vs_close_pct": 0.0
+        "stretch_vs_close_points": 144.0,
+        "stretch_vs_close_pct": 0.27
       },
       "status": "OK"
     },
@@ -298,17 +305,17 @@
       "exchange": "NYMEX",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:20 CET",
-      "time_utc": "2026-08-01T05:20:20Z",
+      "time": "2026-08-01 07:30:20 CET",
+      "time_utc": "2026-08-01T05:30:20Z",
       "age_seconds": 19,
       "freshness": "OK",
-      "last": 83.59,
+      "last": 86.8,
       "bid": null,
       "ask": null,
       "mid": null,
       "close": 83.59,
-      "change_abs": 0.0,
-      "change_pct": 0.0,
+      "change_abs": 3.21,
+      "change_pct": 3.84,
       "session": {
         "overnight_open": null,
         "overnight_high": null,
@@ -322,12 +329,12 @@
         "overnight_position_in_range": null
       },
       "derived": {
-        "direction_vs_close": "flat",
+        "direction_vs_close": "up",
         "overnight_regime": null,
-        "above_prior_rth_close": false,
+        "above_prior_rth_close": true,
         "above_europe_open": null,
-        "stretch_vs_close_points": 0.0,
-        "stretch_vs_close_pct": 0.0
+        "stretch_vs_close_points": 3.21,
+        "stretch_vs_close_pct": 3.84
       },
       "status": "OK"
     },
@@ -338,17 +345,17 @@
       "exchange": "COMEX",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:23 CET",
-      "time_utc": "2026-08-01T05:20:23Z",
+      "time": "2026-08-01 07:30:23 CET",
+      "time_utc": "2026-08-01T05:30:23Z",
       "age_seconds": 22,
       "freshness": "OK",
-      "last": 4100.1,
+      "last": 4049.5,
       "bid": null,
       "ask": null,
       "mid": null,
       "close": 4100.1,
-      "change_abs": 0.0,
-      "change_pct": 0.0,
+      "change_abs": -50.6,
+      "change_pct": -1.23,
       "session": {
         "overnight_open": null,
         "overnight_high": null,
@@ -362,12 +369,12 @@
         "overnight_position_in_range": null
       },
       "derived": {
-        "direction_vs_close": "flat",
+        "direction_vs_close": "down",
         "overnight_regime": null,
         "above_prior_rth_close": false,
         "above_europe_open": null,
-        "stretch_vs_close_points": 0.0,
-        "stretch_vs_close_pct": 0.0
+        "stretch_vs_close_points": -50.6,
+        "stretch_vs_close_pct": -1.23
       },
       "status": "OK"
     },
@@ -378,11 +385,11 @@
       "exchange": "CBOT",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:26 CET",
-      "time_utc": "2026-08-01T05:20:26Z",
+      "time": "2026-08-01 07:30:26 CET",
+      "time_utc": "2026-08-01T05:30:26Z",
       "age_seconds": 25,
       "freshness": "OK",
-      "last": null,
+      "last": 108.0625,
       "bid": null,
       "ask": null,
       "mid": null,
@@ -409,7 +416,7 @@
         "stretch_vs_close_points": null,
         "stretch_vs_close_pct": null
       },
-      "status": "NO_DATA"
+      "status": "OK"
     },
     "ZT": {
       "label": "2Y Treasury Futures",
@@ -418,11 +425,11 @@
       "exchange": "CBOT",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:29 CET",
-      "time_utc": "2026-08-01T05:20:29Z",
+      "time": "2026-08-01 07:30:29 CET",
+      "time_utc": "2026-08-01T05:30:29Z",
       "age_seconds": 29,
       "freshness": "OK",
-      "last": null,
+      "last": 102.8046875,
       "bid": null,
       "ask": null,
       "mid": null,
@@ -449,7 +456,7 @@
         "stretch_vs_close_points": null,
         "stretch_vs_close_pct": null
       },
-      "status": "NO_DATA"
+      "status": "OK"
     },
     "DX": {
       "label": "US Dollar Index Futures",
@@ -458,8 +465,8 @@
       "exchange": "NYBOT",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:33 CET",
-      "time_utc": "2026-08-01T05:20:33Z",
+      "time": "2026-08-01 07:30:33 CET",
+      "time_utc": "2026-08-01T05:30:33Z",
       "age_seconds": 32,
       "freshness": "OK",
       "last": null,
@@ -498,8 +505,8 @@
       "exchange": "CFE",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:36 CET",
-      "time_utc": "2026-08-01T05:20:36Z",
+      "time": "2026-08-01 07:30:36 CET",
+      "time_utc": "2026-08-01T05:30:36Z",
       "age_seconds": 35,
       "freshness": "OK",
       "last": 18.75,
@@ -538,8 +545,8 @@
       "exchange": "EUREX",
       "asset_class": "future",
       "currency": "EUR",
-      "time": "2026-08-01 07:20:39 CET",
-      "time_utc": "2026-08-01T05:20:39Z",
+      "time": "2026-08-01 07:30:39 CET",
+      "time_utc": "2026-08-01T05:30:39Z",
       "age_seconds": 38,
       "freshness": "OK",
       "last": 25808.0,
@@ -578,8 +585,8 @@
       "exchange": "EUREX",
       "asset_class": "future",
       "currency": "EUR",
-      "time": "2026-08-01 07:20:42 CET",
-      "time_utc": "2026-08-01T05:20:42Z",
+      "time": "2026-08-01 07:30:42 CET",
+      "time_utc": "2026-08-01T05:30:42Z",
       "age_seconds": 41,
       "freshness": "OK",
       "last": 6353.0,
@@ -618,17 +625,17 @@
       "exchange": "CME",
       "asset_class": "future",
       "currency": "USD",
-      "time": "2026-08-01 07:20:45 CET",
-      "time_utc": "2026-08-01T05:20:45Z",
+      "time": "2026-08-01 07:30:45 CET",
+      "time_utc": "2026-08-01T05:30:45Z",
       "age_seconds": 44,
       "freshness": "OK",
-      "last": 63765.0,
+      "last": 63000.0,
       "bid": null,
       "ask": null,
       "mid": null,
       "close": 63765.0,
-      "change_abs": 0.0,
-      "change_pct": 0.0,
+      "change_abs": -765.0,
+      "change_pct": -1.2,
       "session": {
         "overnight_open": null,
         "overnight_high": null,
@@ -642,12 +649,12 @@
         "overnight_position_in_range": null
       },
       "derived": {
-        "direction_vs_close": "flat",
+        "direction_vs_close": "down",
         "overnight_regime": null,
         "above_prior_rth_close": false,
         "above_europe_open": null,
-        "stretch_vs_close_points": 0.0,
-        "stretch_vs_close_pct": 0.0
+        "stretch_vs_close_points": -765.0,
+        "stretch_vs_close_pct": -1.2
       },
       "status": "OK"
     },
@@ -658,8 +665,8 @@
       "exchange": "IDEALPRO",
       "asset_class": "fx",
       "currency": "USD",
-      "time": "2026-08-01 07:20:47 CET",
-      "time_utc": "2026-08-01T05:20:47Z",
+      "time": "2026-08-01 07:30:47 CET",
+      "time_utc": "2026-08-01T05:30:47Z",
       "age_seconds": 46,
       "freshness": "OK",
       "last": 1.1528,
@@ -680,8 +687,8 @@
       "exchange": "IDEALPRO",
       "asset_class": "fx",
       "currency": "JPY",
-      "time": "2026-08-01 07:20:49 CET",
-      "time_utc": "2026-08-01T05:20:49Z",
+      "time": "2026-08-01 07:30:49 CET",
+      "time_utc": "2026-08-01T05:30:49Z",
       "age_seconds": 48,
       "freshness": "OK",
       "last": 159.51,
@@ -704,20 +711,20 @@
       "sector": "Technology",
       "classification": "offensive",
       "currency": "USD",
-      "time": "2026-08-01 07:20:51 CET",
-      "time_utc": "2026-08-01T05:20:51Z",
+      "time": "2026-08-01 07:30:51 CET",
+      "time_utc": "2026-08-01T05:30:51Z",
       "age_seconds": 50,
       "freshness": "OK",
-      "last": null,
+      "last": 174.5,
       "bid": null,
       "ask": null,
       "mid": null,
-      "close": null,
-      "change_abs": null,
-      "change_pct": null,
+      "close": 175.73,
+      "change_abs": -1.23,
+      "change_pct": -0.7,
       "session": null,
       "derived": null,
-      "status": "NO_DATA"
+      "status": "OK"
     },
     "XLF": {
       "label": "SPDR Financials ETF",
@@ -728,8 +735,8 @@
       "sector": "Financials",
       "classification": "offensive",
       "currency": "USD",
-      "time": "2026-08-01 07:20:53 CET",
-      "time_utc": "2026-08-01T05:20:53Z",
+      "time": "2026-08-01 07:30:53 CET",
+      "time_utc": "2026-08-01T05:30:53Z",
       "age_seconds": 52,
       "freshness": "OK",
       "last": 56.98,
@@ -752,8 +759,8 @@
       "sector": "Health Care",
       "classification": "defensive",
       "currency": "USD",
-      "time": "2026-08-01 07:20:55 CET",
-      "time_utc": "2026-08-01T05:20:55Z",
+      "time": "2026-08-01 07:30:55 CET",
+      "time_utc": "2026-08-01T05:30:55Z",
       "age_seconds": 54,
       "freshness": "OK",
       "last": 162.0,
@@ -776,8 +783,8 @@
       "sector": "Consumer Discretionary",
       "classification": "offensive",
       "currency": "USD",
-      "time": "2026-08-01 07:20:57 CET",
-      "time_utc": "2026-08-01T05:20:57Z",
+      "time": "2026-08-01 07:30:57 CET",
+      "time_utc": "2026-08-01T05:30:57Z",
       "age_seconds": 56,
       "freshness": "OK",
       "last": 116.24,
@@ -800,8 +807,8 @@
       "sector": "Consumer Staples",
       "classification": "defensive",
       "currency": "USD",
-      "time": "2026-08-01 07:20:59 CET",
-      "time_utc": "2026-08-01T05:20:59Z",
+      "time": "2026-08-01 07:30:59 CET",
+      "time_utc": "2026-08-01T05:30:59Z",
       "age_seconds": 58,
       "freshness": "OK",
       "last": null,
@@ -824,8 +831,8 @@
       "sector": "Energy",
       "classification": "offensive",
       "currency": "USD",
-      "time": "2026-08-01 07:21:01 CET",
-      "time_utc": "2026-08-01T05:21:01Z",
+      "time": "2026-08-01 07:31:01 CET",
+      "time_utc": "2026-08-01T05:31:01Z",
       "age_seconds": 60,
       "freshness": "OK",
       "last": 60.24,
@@ -848,8 +855,8 @@
       "sector": "Industrials",
       "classification": "offensive",
       "currency": "USD",
-      "time": "2026-08-01 07:21:03 CET",
-      "time_utc": "2026-08-01T05:21:03Z",
+      "time": "2026-08-01 07:31:03 CET",
+      "time_utc": "2026-08-01T05:31:03Z",
       "age_seconds": 62,
       "freshness": "OK",
       "last": 178.72,
@@ -872,8 +879,8 @@
       "sector": "Materials",
       "classification": "offensive",
       "currency": "USD",
-      "time": "2026-08-01 07:21:05 CET",
-      "time_utc": "2026-08-01T05:21:05Z",
+      "time": "2026-08-01 07:31:05 CET",
+      "time_utc": "2026-08-01T05:31:05Z",
       "age_seconds": 64,
       "freshness": "OK",
       "last": 50.53,
@@ -896,8 +903,8 @@
       "sector": "Real Estate",
       "classification": "defensive",
       "currency": "USD",
-      "time": "2026-08-01 07:21:07 CET",
-      "time_utc": "2026-08-01T05:21:07Z",
+      "time": "2026-08-01 07:31:07 CET",
+      "time_utc": "2026-08-01T05:31:07Z",
       "age_seconds": 66,
       "freshness": "OK",
       "last": 45.07,
@@ -920,8 +927,8 @@
       "sector": "Utilities",
       "classification": "defensive",
       "currency": "USD",
-      "time": "2026-08-01 07:21:09 CET",
-      "time_utc": "2026-08-01T05:21:09Z",
+      "time": "2026-08-01 07:31:09 CET",
+      "time_utc": "2026-08-01T05:31:09Z",
       "age_seconds": 68,
       "freshness": "OK",
       "last": 44.4,
@@ -944,8 +951,8 @@
       "sector": "Communication Services",
       "classification": "offensive",
       "currency": "USD",
-      "time": "2026-08-01 07:21:11 CET",
-      "time_utc": "2026-08-01T05:21:11Z",
+      "time": "2026-08-01 07:31:11 CET",
+      "time_utc": "2026-08-01T05:31:11Z",
       "age_seconds": 70,
       "freshness": "OK",
       "last": 108.24,
@@ -967,8 +974,8 @@
       "asset_class": "etf",
       "credit_type": "high_yield",
       "currency": "USD",
-      "time": "2026-08-01 07:21:13 CET",
-      "time_utc": "2026-08-01T05:21:13Z",
+      "time": "2026-08-01 07:31:13 CET",
+      "time_utc": "2026-08-01T05:31:13Z",
       "age_seconds": 72,
       "freshness": "OK",
       "last": 79.45,
@@ -990,8 +997,8 @@
       "asset_class": "etf",
       "credit_type": "high_yield",
       "currency": "USD",
-      "time": "2026-08-01 07:21:15 CET",
-      "time_utc": "2026-08-01T05:21:15Z",
+      "time": "2026-08-01 07:31:15 CET",
+      "time_utc": "2026-08-01T05:31:15Z",
       "age_seconds": 74,
       "freshness": "OK",
       "last": 95.52,
@@ -1013,8 +1020,8 @@
       "asset_class": "etf",
       "credit_type": "invest_grade",
       "currency": "USD",
-      "time": "2026-08-01 07:21:17 CET",
-      "time_utc": "2026-08-01T05:21:17Z",
+      "time": "2026-08-01 07:31:17 CET",
+      "time_utc": "2026-08-01T05:31:17Z",
       "age_seconds": 76,
       "freshness": "OK",
       "last": 106.21,
@@ -1036,9 +1043,9 @@
       "asset_class": "etf",
       "credit_type": "treasury",
       "currency": "USD",
-      "time": "2026-08-01 07:21:19 CET",
-      "time_utc": "2026-08-01T05:21:19Z",
-      "age_seconds": 79,
+      "time": "2026-08-01 07:31:19 CET",
+      "time_utc": "2026-08-01T05:31:19Z",
+      "age_seconds": 78,
       "freshness": "OK",
       "last": 82.03,
       "bid": null,
@@ -1059,9 +1066,9 @@
       "asset_class": "etf",
       "credit_type": "treasury",
       "currency": "USD",
-      "time": "2026-08-01 07:21:21 CET",
-      "time_utc": "2026-08-01T05:21:21Z",
-      "age_seconds": 81,
+      "time": "2026-08-01 07:31:21 CET",
+      "time_utc": "2026-08-01T05:31:21Z",
+      "age_seconds": 80,
       "freshness": "OK",
       "last": 92.82,
       "bid": null,
@@ -1077,23 +1084,28 @@
   },
   "truth_tellers": {
     "primary": [
-      "DAX",
-      "ES",
-      "NQ",
+      "CL",
+      "GC",
+      "NKD",
       "RTY"
     ],
     "secondary": [
-      "YM",
-      "CL",
-      "GC"
+      "DAX",
+      "ES",
+      "YM"
     ],
     "notes": "No notable divergences."
   },
   "alerts": [
     {
       "level": "info",
-      "code": "ES_BELOW_PRIOR_CLOSE",
-      "message": "ES trading below prior RTH close."
+      "code": "ES_ABOVE_PRIOR_CLOSE",
+      "message": "ES trading above prior RTH close."
+    },
+    {
+      "level": "info",
+      "code": "CL_LARGE_MOVE",
+      "message": "CL up 3.84% vs prior close."
     },
     {
       "level": "info",
