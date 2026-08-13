@@ -1,9 +1,9 @@
 {
   "source": "atas_novaexportprovwap_v1",
-  "pushed_at_utc": "2026-08-13T22:55:03Z",
-  "bar_timestamp": "2026-08-14 00:54",
+  "pushed_at_utc": "2026-08-13T23:00:03Z",
+  "bar_timestamp": "2026-08-14 01:00",
   "data": {
-    "TIMESTAMP": "2026-08-14 00:54",
+    "TIMESTAMP": "2026-08-14 01:00",
     "PRICE": 7824.0,
     "PRIOR_DAILY_HIGH": 7838.5,
     "PRIOR_DAILY_LOW": 7764.25,
@@ -36,10 +36,10 @@
     "IB_LOW": 0.0,
     "W3_HIGH": 0.0,
     "W3_LOW": 0.0,
-    "VWAP_DAILY": 7824.78,
+    "VWAP_DAILY": 7824.77,
     "VWAP_WEEKLY": 7816.52,
     "VWAP_YTD": 7816.52,
-    "DELTA_CURRENT": 1.0,
-    "DELTA_CUMULATIVE": 16182.0
+    "DELTA_CURRENT": -1.0,
+    "DELTA_CUMULATIVE": 16015.0
   }
 }
