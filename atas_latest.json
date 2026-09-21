@@ -1,10 +1,10 @@
 {
   "source": "atas_novaexportprovwap_v1",
-  "pushed_at_utc": "2026-09-21T00:01:02Z",
-  "bar_timestamp": "2026-09-21 02:01",
+  "pushed_at_utc": "2026-09-21T00:02:37Z",
+  "bar_timestamp": "2026-09-21 02:02",
   "data": {
-    "TIMESTAMP": "2026-09-21 02:01",
-    "PRICE": 7734.5,
+    "TIMESTAMP": "2026-09-21 02:02",
+    "PRICE": 7734.0,
     "PRIOR_DAILY_HIGH": 7739.25,
     "PRIOR_DAILY_LOW": 7675.0,
     "PRIOR_DAILY_CLOSE": 7725.0,
@@ -17,11 +17,11 @@
     "PRIOR_RTH_VAH": 7719.5,
     "PRIOR_RTH_VAL": 7689.0,
     "PRIOR_RTH_POC": 7712.5,
-    "DAILY_VAH": 7727.5,
+    "DAILY_VAH": 7727.75,
     "DAILY_VAL": 7714.0,
     "DAILY_POC": 7722.0,
     "GLOBEX_OPEN": 7722.0,
-    "GLOBEX_VAH": 7727.5,
+    "GLOBEX_VAH": 7727.75,
     "GLOBEX_VAL": 7714.0,
     "GLOBEX_POC": 7722.0,
     "W1_HIGH": 7735.75,
@@ -36,10 +36,10 @@
     "IB_LOW": 0.0,
     "W3_HIGH": 0.0,
     "W3_LOW": 0.0,
-    "VWAP_DAILY": 7724.03,
-    "VWAP_WEEKLY": 7724.03,
-    "VWAP_YTD": 7692.68,
+    "VWAP_DAILY": 7724.1,
+    "VWAP_WEEKLY": 7724.1,
+    "VWAP_YTD": 7692.75,
     "DELTA_CURRENT": 1.0,
-    "DELTA_CUMULATIVE": 15240.0
+    "DELTA_CUMULATIVE": 16096.0
   }
 }
